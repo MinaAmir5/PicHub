@@ -1,0 +1,3 @@
+D:\Carrer\ALX\Project\WallHub\obj\Debug\WallHub.njsproj.AssemblyReference.cache
+D:\Carrer\ALX\Project\WallHub\obj\Debug\WallHub.njsproj.CoreCompileInputs.cache
+D:\Carrer\ALX\Project\WallHub\bin\Microsoft.NodejsTools.WebRole.dll

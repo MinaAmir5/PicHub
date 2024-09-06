@@ -1,0 +1,22 @@
+20240907	00:49:58	be7d4ab1-c490-451c-ab0b-a2df9372609e	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\views\404.html'
+20240907	00:55:20	fbd1f450-b997-42ed-bf39-86ed7c5396ca	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\server\views\404.html'
+20240907	00:58:48	7f26f3b2-c06a-47ab-9161-fbe798857064	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\server\views\404.html'
+20240907	01:16:44	280d0366-84d3-44af-9541-82c3c2f76b78	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\clients\public\views\index.html'
+20240907	01:19:02	b74abec4-0cf2-49b4-b040-e9b3372712e6	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\clients\public\views\index.html'
+20240907	01:22:07	a09d5a86-d088-40a9-bcc6-9b1a24270be6	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\CarrerALXProjectWallHubclientpubliciewsindex.html'
+20240907	01:23:47	7d5bbead-6dbc-4333-a522-04a4a89c939d	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\clients\public\views\index.html'
+20240907	01:26:18	30721631-9c28-4c69-bd47-750703219148	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\client\public\views\favicon.ico'
+20240907	01:26:38	7f4fb15c-ef1b-443d-abbd-562e4e97b24d	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\client\public\views\favicon.ico'
+20240907	01:26:42	d965483e-37cd-4f9a-929b-8d0c4cb0e41c	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\client\public\views\favicon.ico'
+20240907	01:26:52	a3bb9bfc-f7f8-42f0-94c6-315b1fc3170b	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\client\public\views\favicon.ico'
+20240907	01:27:01	828f4431-f058-4e62-8855-9bf76ebfb31f	Error: Cannot write headers after they are sent to the client
+20240907	01:27:01	0278f5a5-34ea-4581-b9ab-01449c75675f	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\client\public\views\favicon.ico'
+20240907	01:27:01	99ce2b8e-1b17-48f2-881c-9e6680d7f585	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\views\404.html'
+20240907	01:27:27	187695f8-ffd1-43c2-9b49-f014d70fcf73	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\server\client\public\views\index.html'
+20240907	01:27:27	212b7253-0020-4966-a2c3-426d42efa9a0	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\server\views\404.html'
+20240907	01:30:47	a037286f-12e0-4619-9527-019121e547b9	Error: Cannot write headers after they are sent to the client
+20240907	01:30:47	8f035cce-332b-42bd-a03f-6357a589101e	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\client\public\views\favicon.ico'
+20240907	01:30:47	c7605bf1-735b-42c9-a217-799447b321a0	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\server\views\404.html'
+20240907	01:31:10	960912a5-dc15-48f4-bf0a-91aea132dd4f	Error: Cannot write headers after they are sent to the client
+20240907	01:31:10	61311137-bc6c-4355-9736-515f32717cad	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\client\public\views\favicon.ico'
+20240907	01:31:10	87cbee46-64bd-4adf-830f-34f4ea0f467b	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\server\views\404.html'
