@@ -4,11 +4,112 @@
     box-sizing: border-box;
 }
 
+.background {
+    height: 50vh; /* Full height */
+    background-image: url(../../src/components/imgs/cover.jpg); /* Add your image path here */
+    background-size: cover; /* Make the image cover the entire container */
+    background-position: center; /* Center the background image */
+    display: flex; /* Enable flexbox to center content */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+.content {
+    text-align: center; /* Center textboxes */
+    /*background-color: rgba(255, 255, 255, 0.8);*/ /* Optional: add background with opacity to highlight textboxes */
+    padding: 20px; /* Add padding */
+    border-radius: 10px; /* Round the corners */
+}
+
+#Pic{
+    color: #00ffff;
+}
+#Hub{
+    color: #b200ff;
+}
+
+.textbox {
+    width: 300px;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.picsCol1 {
+    display: flex;
+    flex-direction: column; /* Arrange items in a column layout */
+    flex-wrap: wrap;
+    align-items: flex-start; /* Align items to the start of the flex container */
+    gap: 5px;
+}
+.picsCol1 img {
+    border-radius: 2%;
+    width: 32.5vw;
+    height: auto;
+    /*display: inline-block;*/
+    vertical-align: top;
+    object-fit: cover; /* Ensures images are contained within the fixed width */
+    flex: 0 0 auto; /* Flex grow, shrink, and basis */
+}
+
+.picsCol2 {
+    display: flex;
+    flex-direction: column; /* Arrange items in a column layout */
+    flex-wrap: wrap;
+    align-items: flex-start; /* Align items to the start of the flex container */
+    gap: 5px;
+}
+.picsCol2 img {
+    border-radius: 2%;
+    width: 32.5vw;
+    height: auto;
+    /*display: inline-block;*/
+    vertical-align: top;
+    object-fit: cover; /* Ensures images are contained within the fixed width */
+    flex: 0 0 auto; /* Flex grow, shrink, and basis */
+}
+
+.picsCol3 {
+    display: flex;
+    flex-direction: column; /* Arrange items in a column layout */
+    flex-wrap: wrap;
+    align-items: flex-start; /* Align items to the start of the flex container */
+    gap: 5px;
+}
+.picsCol3 img {
+    border-radius: 2%;
+    width: 32.5vw;
+    height: auto;
+    /*display: inline-block;*/
+    vertical-align: top;
+    object-fit: cover; /* Ensures images are contained within the fixed width */
+    flex: 0 0 auto; /* Flex grow, shrink, and basis */
+}
+
+.pics {
+    display: flex;
+    flex-direction: row; /* Arrange items in a column layout */
+    flex-wrap: wrap;
+    align-items: flex-start; /* Align items to the start of the flex container */
+    gap: 5px;
+}
+.pics img {
+    border-radius: 2%;
+    width: 32.7vw;
+    height: auto;
+    /*display: inline-block;*/
+    vertical-align: top;
+    object-fit: cover; /* Ensures images are contained within the fixed width */
+    flex: 0 0 auto; /* Flex grow, shrink, and basis */
+}
+
 body {
     font-size: 36px;
-    min-height: 100vh;
-    color: #fff;
-    background-color: #000;
-    display: grid;
-    place-content: center;
+    /*min-height: 100vh;
+    color: #fff;*/
+    background-color: #1E1E1E;
+    /*display: grid;
+    place-content: center;*/
 }

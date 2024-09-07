@@ -31,13 +31,19 @@
     <Content Include=".gitignore">
       <SubType>Code</SubType>
     </Content>
+    <Content Include="client\src\components\imgs\cover.jpg" />
+    <Content Include="client\src\components\imgs\pic1.jpg" />
+    <Content Include="client\src\components\imgs\pic2.jpg" />
+    <Content Include="client\src\components\imgs\pic3.jpg" />
+    <Content Include="client\src\components\imgs\pic4.jpg" />
+    <Content Include="client\src\components\imgs\pic5.jpg" />
+    <Content Include="client\src\components\imgs\pic6.jpg" />
     <Content Include="data\data.json">
       <SubType>Code</SubType>
     </Content>
     <Content Include="data\data.txt">
       <SubType>Code</SubType>
     </Content>
-    <Content Include="img\img1.jpg" />
     <Content Include="logEvents.js">
       <SubType>Code</SubType>
     </Content>
@@ -53,12 +59,13 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="client\" />
+    <Folder Include="client\src\components\imgs\" />
     <Folder Include="client\public\css\" />
+    <Folder Include="client\src\components\" />
     <Folder Include="client\public\views\" />
     <Folder Include="client\src\" />
     <Folder Include="client\public\" />
     <Folder Include="data\" />
-    <Folder Include="img\" />
     <Folder Include="server\" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsToolsV2.targets" />

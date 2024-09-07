@@ -20,3 +20,685 @@
 20240907	01:31:10	960912a5-dc15-48f4-bf0a-91aea132dd4f	Error: Cannot write headers after they are sent to the client
 20240907	01:31:10	61311137-bc6c-4355-9736-515f32717cad	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\client\public\views\favicon.ico'
 20240907	01:31:10	87cbee46-64bd-4adf-830f-34f4ea0f467b	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\server\views\404.html'
+20240907	07:59:45	6b738c4f-d52b-42f1-abba-cd3425eb1e63	Error: Cannot write headers after they are sent to the client
+20240907	07:59:45	56afb8b1-e98c-4802-bb5c-301edcf216be	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\css\style.css'
+20240907	07:59:45	a8a38f29-bc82-4019-8a39-3e4eef058fa9	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\server\views\404.html'
+20240907	07:59:46	957a267c-99f0-46e0-a3fb-68af6ab8e1c8	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\client\public\views\favicon.ico'
+20240907	07:59:46	9191215d-e0d6-400e-bcee-220b27230a6a	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\server\views\404.html'
+20240907	08:05:55	5c31bfa6-56fa-40a3-b61c-07bf3c0d296f	Error: Cannot write headers after they are sent to the client
+20240907	08:05:55	d548b775-edf0-468e-b3d8-302e3b25af22	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\css\style.css'
+20240907	08:05:55	b1615ea3-3db3-49fd-90ab-a5cdccba242a	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\server\views\404.html'
+20240907	08:05:55	07e2d205-20c1-4e2b-ad5b-45ba614dea43	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\client\public\views\favicon.ico'
+20240907	08:05:55	830b9ed8-c669-4283-a126-07913f9fab5e	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\server\views\404.html'
+20240907	08:11:00	93a75f4b-6a1c-421e-939c-4222b7999b2a	Error: Cannot write headers after they are sent to the client
+20240907	08:11:00	0de544c4-55ae-46a4-aad1-a7d98f1e39a0	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\client\public\css\css\style.css'
+20240907	08:11:00	653a73ef-8f0a-4eea-b9fd-b13babf5202e	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\server\views\404.html'
+20240907	08:11:00	0841a993-47a6-41ea-8eee-0a545e3866cf	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\client\public\views\favicon.ico'
+20240907	08:11:00	e254c027-c072-4e62-8bfc-3f9cb03d812f	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\server\views\404.html'
+20240907	08:11:44	3b6e65b0-1d14-4ebd-a695-8d02995f9b47	Error: Cannot write headers after they are sent to the client
+20240907	08:11:44	5a9ce567-6a20-44a2-9bd4-94dfed7047fe	Error: Cannot write headers after they are sent to the client
+20240907	08:11:44	5a4a1595-fdc1-4e4a-88a0-682a7369959c	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\client\public\views\favicon.ico'
+20240907	08:11:44	e0dc00c0-bf24-4566-8b3e-7c4303116569	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\server\views\404.html'
+20240907	08:14:03	1bac53dc-8b3b-4da6-96f1-88292c0a3de3	Error: Cannot write headers after they are sent to the client
+20240907	08:14:03	12d67c5b-fd47-47d4-a512-3c253b9f11af	Error: Cannot write headers after they are sent to the client
+20240907	08:14:03	d97816d8-d550-4a16-aefc-1fb7a4ee0acd	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\client\public\views\favicon.ico'
+20240907	08:14:03	d6fd76cd-2ad0-4a8d-a9fc-3a66acd6d341	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\server\views\404.html'
+20240907	08:15:46	a29729e0-4513-4241-85e1-03cbfb0325b7	Error: Cannot write headers after they are sent to the client
+20240907	08:15:46	27e4f4e2-7c72-4a6f-af69-8c7d278f7fe5	Error: Cannot write headers after they are sent to the client
+20240907	08:15:47	e570547f-5c9b-417e-8759-81559fc86806	Error: Cannot write headers after they are sent to the client
+20240907	08:15:47	45692f11-c35e-41f2-aeb3-37c76e438a8c	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\client\public\views\favicon.ico'
+20240907	08:15:47	66f83dc5-86c9-499f-98c3-fc156f7105da	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\server\views\404.html'
+20240907	08:16:30	3f8c2309-b9ab-49c8-b815-13db8cdacfb4	Error: Cannot write headers after they are sent to the client
+20240907	08:16:30	62b39b13-e183-4d01-85b1-3832c600008f	Error: Cannot write headers after they are sent to the client
+20240907	08:16:30	fc581a83-5988-42b7-8a18-498c736027b5	Error: Cannot write headers after they are sent to the client
+20240907	08:16:30	c287a23d-2138-40b2-b3c0-95dcc845584d	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\client\public\views\favicon.ico'
+20240907	08:16:30	8c5ac138-9520-45d1-bc31-c6956bb469aa	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\server\views\404.html'
+20240907	08:16:31	712275e0-5cc9-4b20-9dd9-16369ead87a0	Error: Cannot write headers after they are sent to the client
+20240907	08:16:31	72b36f10-3d16-4c19-bde1-4ac5968a78eb	Error: Cannot write headers after they are sent to the client
+20240907	08:16:31	5883315a-877e-4ded-8f03-b2b04a56f300	Error: Cannot write headers after they are sent to the client
+20240907	08:16:31	7cb66029-4398-4d1b-a0a3-e0e0ca737e72	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\client\public\views\favicon.ico'
+20240907	08:16:31	b6ab42ce-ed26-4eed-aa2b-57847be006f5	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\server\views\404.html'
+20240907	08:16:36	5a408ee2-51f7-444b-9382-52c5533f07a3	Error: Cannot write headers after they are sent to the client
+20240907	08:16:36	63d8d8c1-7826-4ae1-93dc-8de45f31ea0d	Error: Cannot write headers after they are sent to the client
+20240907	08:16:36	a1ddfe65-64e6-4297-b8dd-35a0d3f0fb54	Error: Cannot write headers after they are sent to the client
+20240907	08:16:36	e7492eb5-434f-401b-bc11-a1fdd3060abf	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\client\public\views\favicon.ico'
+20240907	08:16:36	d0745c4b-1d5b-4e27-b882-e21ac9edfaa1	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\server\views\404.html'
+20240907	08:16:47	b06a7c4f-a1da-4efa-98c9-6e763b7a59dc	Error: Cannot write headers after they are sent to the client
+20240907	08:16:47	da977637-61c0-4dbe-aa0e-7b44a32faa5b	Error: Cannot write headers after they are sent to the client
+20240907	08:16:47	6b2cf1cc-0ba4-49c0-aaee-eca6430e9916	Error: Cannot write headers after they are sent to the client
+20240907	08:16:48	22624a3c-0021-43ec-8c6a-4a1780af73fe	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\client\public\views\favicon.ico'
+20240907	08:16:48	b4c47d1b-49d3-484d-b3a0-fae6dc8dd784	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\server\views\404.html'
+20240907	08:17:33	7b4c8233-1020-4e29-8b43-25bd22f282cc	Error: Cannot write headers after they are sent to the client
+20240907	08:17:33	830f17bb-6501-4e0f-8ecb-a1b53d5027df	Error: Cannot write headers after they are sent to the client
+20240907	08:17:33	db7db97e-7485-431f-9eff-6e6f408b1878	Error: Cannot write headers after they are sent to the client
+20240907	08:17:33	2a1441cb-990b-4561-9355-83c0ca931bc9	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\client\public\views\favicon.ico'
+20240907	08:17:33	9af5a021-14f4-4cad-ac3a-8d3fb88a2d0f	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\server\views\404.html'
+20240907	08:18:46	a1b4e2cd-7bd6-4bc3-8183-f5f01aea223a	Error: Cannot write headers after they are sent to the client
+20240907	08:18:46	2042d48d-6c3e-49e4-a4ef-1a9923c43c46	Error: Cannot write headers after they are sent to the client
+20240907	08:18:46	12515c91-f876-43bf-a195-521ab2bb89d3	Error: Cannot write headers after they are sent to the client
+20240907	08:18:46	86842f0a-6405-42d4-ad1c-a9b1eb6fb4ea	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\client\public\views\favicon.ico'
+20240907	08:18:46	bbdd186d-489a-42a2-8c21-bb0f2ccfd940	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\server\views\404.html'
+20240907	08:21:29	ae772414-f142-44b4-a99c-6e82332b8f41	Error: Cannot write headers after they are sent to the client
+20240907	08:21:29	4df1ae03-1474-49da-841b-81ee74e5ff47	Error: Cannot write headers after they are sent to the client
+20240907	08:21:29	8e6ad377-02f5-4198-b095-0a32cb576e38	Error: Cannot write headers after they are sent to the client
+20240907	08:21:29	95c27871-be96-47b7-8a40-17346291e3d6	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\client\public\views\favicon.ico'
+20240907	08:21:29	a7646f6b-8f5c-4c6d-ba02-5c4e192c7427	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\server\views\404.html'
+20240907	08:21:45	210aee90-7efc-44c0-a5f4-c3bd03ab3c7c	Error: Cannot write headers after they are sent to the client
+20240907	08:21:45	00405819-8612-44f8-be5a-18fdd495e0d5	Error: Cannot write headers after they are sent to the client
+20240907	08:21:45	fa5fb26f-6e3c-416f-8a90-13dfcd2883a1	Error: Cannot write headers after they are sent to the client
+20240907	08:21:45	ead9d5a8-6edb-4d38-9380-0b47296cd96f	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\client\public\views\favicon.ico'
+20240907	08:21:45	59e32333-36f4-4a56-b2b1-9b15dab0d258	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\server\views\404.html'
+20240907	08:22:25	1607e9a4-9a93-44c9-98fc-7381f189cbd8	Error: Cannot write headers after they are sent to the client
+20240907	08:22:25	8d142a5f-dd13-41bd-aede-98fd45a9ed85	Error: Cannot write headers after they are sent to the client
+20240907	08:22:25	20e8accc-101d-430e-8813-971bdc5ad10d	Error: Cannot write headers after they are sent to the client
+20240907	08:22:25	02d5c147-7d60-4fa5-be0b-3556986137b3	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\client\public\views\favicon.ico'
+20240907	08:22:25	d5c684d6-0c48-43c3-b7a9-05d7a933281d	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\server\views\404.html'
+20240907	08:23:52	2bd6b648-338c-404d-a945-15939186e30c	Error: Cannot write headers after they are sent to the client
+20240907	08:23:52	8e30e9d6-0a2d-472d-b548-63fb30bcaad0	Error: Cannot write headers after they are sent to the client
+20240907	08:23:52	cabc2106-710a-4339-9846-eed208cbf415	Error: Cannot write headers after they are sent to the client
+20240907	08:23:52	b38e6710-347e-48bb-b9ec-7425ae216301	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\client\public\views\favicon.ico'
+20240907	08:23:52	c658bbe7-3793-448c-a8f0-235990abf824	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\server\views\404.html'
+20240907	08:24:53	a33be7dc-d474-4cf7-b1d3-6452a1342d21	Error: Cannot write headers after they are sent to the client
+20240907	08:24:53	d4e104b5-bbbe-4d48-96ea-e45b77636b95	Error: Cannot write headers after they are sent to the client
+20240907	08:24:53	cf6dea05-f289-4bf2-8ecb-6a598e523869	Error: Cannot write headers after they are sent to the client
+20240907	08:24:53	a28978d5-ac6e-4a61-8dc0-482bc9734f3e	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\client\public\views\favicon.ico'
+20240907	08:24:53	ede37870-26c9-432b-b5d9-dbd00941dda8	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\server\views\404.html'
+20240907	08:25:57	bc371d6f-9472-46c7-a367-01e78e9096ca	Error: Cannot write headers after they are sent to the client
+20240907	08:25:57	0a29aac6-2122-43d8-8baa-36c79f67f125	Error: Cannot write headers after they are sent to the client
+20240907	08:25:57	b8eba7fd-ece1-427b-9fe9-eb227d881d11	Error: Cannot write headers after they are sent to the client
+20240907	08:25:57	8dca65b4-1d44-4c36-8fce-b338e14b6dea	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\client\public\views\favicon.ico'
+20240907	08:25:57	64dd44fd-9332-4713-9f51-dd9fa19dd607	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\server\views\404.html'
+20240907	08:32:05	291d7827-8c2d-45d3-82a2-f94e6bfcdd70	Error: Cannot write headers after they are sent to the client
+20240907	08:32:05	33820e99-791c-4b2c-92ab-abdafc629575	Error: Cannot write headers after they are sent to the client
+20240907	08:32:05	173f060a-31df-423c-9b6e-896eb96a3612	Error: Cannot write headers after they are sent to the client
+20240907	08:32:05	07527bde-ef64-4d3c-bb77-6c8e9b76c4a2	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\client\public\views\favicon.ico'
+20240907	08:32:05	bd0fe0bb-7322-4e7f-a31a-b2da482a86a8	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\server\views\404.html'
+20240907	08:32:15	35303948-53cc-4d27-b0c9-3e5ef713d5e3	Error: Cannot write headers after they are sent to the client
+20240907	08:32:15	1b2d43fc-4869-4a80-82c0-de61fa1fda29	Error: Cannot write headers after they are sent to the client
+20240907	08:32:15	d701f0a3-83a4-4102-877d-e7eb4b331e03	Error: Cannot write headers after they are sent to the client
+20240907	08:32:15	94d8982a-7b14-4d45-bb3b-33a932885195	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\client\public\views\favicon.ico'
+20240907	08:32:15	96bbbb23-410b-440a-977c-861c376c1656	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\server\views\404.html'
+20240907	08:32:46	1f977df6-7288-429a-b2c4-c57f5fb5eca5	Error: Cannot write headers after they are sent to the client
+20240907	08:32:46	8b360238-56e4-4a0f-93dc-7aabe6d01993	Error: Cannot write headers after they are sent to the client
+20240907	08:32:46	ec7d4bc2-24f9-421c-a71a-3547ea6b33af	Error: Cannot write headers after they are sent to the client
+20240907	08:32:46	d36f4514-b919-44db-929f-3ae8ac48f412	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\client\public\views\favicon.ico'
+20240907	08:32:46	8719d5ee-5cdd-4878-bead-6e557546b07b	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\server\views\404.html'
+20240907	08:54:41	1c272891-3c95-4636-ab24-04676b040cd7	Error: Cannot write headers after they are sent to the client
+20240907	08:54:41	f8dc85b3-ef27-4718-b103-bd0866abf770	Error: Cannot write headers after they are sent to the client
+20240907	08:54:41	2c834318-be78-4f59-a313-6dc7307177c1	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\client\public\src\components\imgs\cover.jpg'
+20240907	08:54:41	e789f11e-0387-4284-aae3-ba75007f5a67	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\server\views\404.html'
+20240907	08:54:41	e1eca5ab-9d9b-4434-82a5-53fd9f4afec7	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\client\public\views\favicon.ico'
+20240907	08:54:41	d32d934d-fa07-4b64-a42c-1dc93b35071e	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\server\views\404.html'
+20240907	08:56:18	f8f133bb-592c-4920-9223-aeb1763fbbaf	Error: Cannot write headers after they are sent to the client
+20240907	08:56:18	07c01870-f534-4967-93cf-badb5d2aef53	Error: Cannot write headers after they are sent to the client
+20240907	08:56:18	f321a14e-8471-4ecb-a07b-ef5edf83f6d3	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\client\public\src\components\imgs\cover.jpg'
+20240907	08:56:18	70f0a31a-111d-461f-b9f9-be7b240b9117	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\server\views\404.html'
+20240907	08:56:18	46361db5-94f0-4de8-b625-6f9c5a4f25b0	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\client\public\views\favicon.ico'
+20240907	08:56:18	88fb311c-3388-4882-920f-3ba57793fa56	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\server\views\404.html'
+20240907	08:57:36	d27ced44-139a-435d-8550-21e212654826	Error: Cannot write headers after they are sent to the client
+20240907	08:57:36	8eba06ab-2652-4edd-8854-30607b08076c	Error: Cannot write headers after they are sent to the client
+20240907	08:57:37	b57ae83b-5462-4dfe-8b90-a11ebf7f1fd5	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\client\public\src\components\imgs\cover.jpg'
+20240907	08:57:37	78607336-1b17-470c-9832-6a73aa6a9ce8	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\server\views\404.html'
+20240907	08:57:37	22fa9fdf-5486-49d0-ab79-02c813365b85	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\client\public\views\favicon.ico'
+20240907	08:57:37	da13bfa1-8372-41d9-8c6b-c94a5a29e229	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\server\views\404.html'
+20240907	09:01:19	c321c9c7-acbd-427e-bb92-738f82a7a4c3	Error: Cannot write headers after they are sent to the client
+20240907	09:01:19	3ad278bc-e903-4a11-b34b-4928559a2681	Error: Cannot write headers after they are sent to the client
+20240907	09:01:19	2fac8234-60cd-4d02-8aaf-a2f3a3757073	Error: Cannot write headers after they are sent to the client
+20240907	09:01:19	d0fc86bb-3875-4c57-871c-34c5241b9ebf	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\client\public\views\favicon.ico'
+20240907	09:01:19	f458a422-de0a-4ea0-b6d7-9103939c1219	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\server\views\404.html'
+20240907	09:06:46	a66d0407-3a29-4967-9c24-460271148a07	Error: Cannot write headers after they are sent to the client
+20240907	09:06:46	024ff623-3ba8-4d5e-ac63-9480ad002a2f	Error: Cannot write headers after they are sent to the client
+20240907	09:06:46	a38447d1-8bc3-445c-a4df-10959c3cc28b	Error: Cannot write headers after they are sent to the client
+20240907	09:06:46	eb6dc8b4-f7e3-4581-b767-e7dfa94ef838	Error: Cannot write headers after they are sent to the client
+20240907	09:06:46	3473b212-287a-4ae4-a769-ae452f64e494	Error: Cannot write headers after they are sent to the client
+20240907	09:06:46	f664fb77-6f9c-491a-9150-68246183404c	Error: Cannot write headers after they are sent to the client
+20240907	09:06:46	db49b46a-3ae5-44dd-80c5-d6ad3ae84ce2	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\client\public\views\favicon.ico'
+20240907	09:06:46	6631487a-d9ca-45a8-aa36-42d5e460d471	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\server\views\404.html'
+20240907	09:10:17	07b43c60-27bf-433c-871d-5eba73c66b09	Error: Cannot write headers after they are sent to the client
+20240907	09:10:17	1e0a2b53-2d3b-4ab5-9e6e-984fe89444ca	Error: Cannot write headers after they are sent to the client
+20240907	09:10:17	6bc54bc0-4c20-4bdb-9ab9-ee7aa2ba988f	Error: Cannot write headers after they are sent to the client
+20240907	09:10:17	f20d93f0-1e91-46ad-a846-c5c78d258ba4	Error: Cannot write headers after they are sent to the client
+20240907	09:10:17	a5a9897d-719b-46da-95e4-ab00d72112fe	Error: Cannot write headers after they are sent to the client
+20240907	09:10:17	ef76f358-2e10-4808-b3fc-d869411e5de0	Error: Cannot write headers after they are sent to the client
+20240907	09:10:17	59043afd-9930-43ab-b13c-042314a96836	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\client\public\views\favicon.ico'
+20240907	09:10:17	4124c919-b057-4de3-b847-aa9a03c57931	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\server\views\404.html'
+20240907	09:11:18	e4986b47-b03a-4bc4-88fd-65f2d24732ab	Error: Cannot write headers after they are sent to the client
+20240907	09:11:18	b60b6970-3169-491a-802f-d28e56e4a215	Error: Cannot write headers after they are sent to the client
+20240907	09:11:18	e63cd2b9-3c09-4dd9-97e7-e29a8ba600b2	Error: Cannot write headers after they are sent to the client
+20240907	09:11:18	e11ed46b-4007-4e37-9b9f-13aa0895d01d	Error: Cannot write headers after they are sent to the client
+20240907	09:11:18	e943ff8b-3fcd-4b4f-a767-d7a1d584012d	Error: Cannot write headers after they are sent to the client
+20240907	09:11:18	605fc83c-3254-443a-b043-2cb55375edf0	Error: Cannot write headers after they are sent to the client
+20240907	09:11:18	edcdaf2c-5dac-468b-a15e-4ea1c8367f66	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\client\public\views\favicon.ico'
+20240907	09:11:18	27404953-8849-437a-a0aa-f603d8f350b8	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\server\views\404.html'
+20240907	09:14:07	adfcac35-a930-48a8-8e96-18d6a210f753	Error: Cannot write headers after they are sent to the client
+20240907	09:14:07	0bae48ba-bc34-42c3-bb49-9ed645e267ad	Error: Cannot write headers after they are sent to the client
+20240907	09:14:07	6bd7825c-627e-473c-806f-394e104a194f	Error: Cannot write headers after they are sent to the client
+20240907	09:14:07	124ec88d-4e32-4ccc-aa39-73dd039ccec1	Error: Cannot write headers after they are sent to the client
+20240907	09:14:07	e056bbba-6709-4c32-b276-d6e344b2bfa1	Error: Cannot write headers after they are sent to the client
+20240907	09:14:07	aa40b319-1241-47ef-b687-79c752511355	Error: Cannot write headers after they are sent to the client
+20240907	09:14:07	20fda512-5b51-4763-a6d6-12f4a438549e	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\client\public\views\favicon.ico'
+20240907	09:14:07	6ca9af2e-1d1f-4ac2-bd86-bb81afc6ea3b	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\server\views\404.html'
+20240907	09:14:44	f32eb33b-4979-42b5-ba80-504fc78c20fe	Error: Cannot write headers after they are sent to the client
+20240907	09:14:44	4bee684a-ed30-4838-b558-d5bf160da110	Error: Cannot write headers after they are sent to the client
+20240907	09:14:44	259add65-0ccf-4114-acc7-e1ea64ca1f3e	Error: Cannot write headers after they are sent to the client
+20240907	09:14:45	610bc0ea-0f17-4254-a2e3-84097f41637d	Error: Cannot write headers after they are sent to the client
+20240907	09:14:45	9e02d388-dffa-429d-97bf-f656d55f22e1	Error: Cannot write headers after they are sent to the client
+20240907	09:14:45	e32dc7aa-67a1-409d-8b78-59e07f343c87	Error: Cannot write headers after they are sent to the client
+20240907	09:14:45	cc9e5c41-89a9-49aa-b5dd-be9393bcc197	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\client\public\views\favicon.ico'
+20240907	09:14:45	10958607-6ae8-462c-8219-b8d8bcaff160	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\server\views\404.html'
+20240907	09:17:57	f13160e2-b521-46cf-91b7-4571af62a33e	Error: Cannot write headers after they are sent to the client
+20240907	09:17:57	c3700403-fbab-4e64-a24d-1d8f06b15f42	Error: Cannot write headers after they are sent to the client
+20240907	09:17:57	28539c84-cd0b-4c91-b075-c694dce06c3c	Error: Cannot write headers after they are sent to the client
+20240907	09:17:57	71e57296-fa29-4383-8ca8-5aee8749efbc	Error: Cannot write headers after they are sent to the client
+20240907	09:17:57	54a939be-8eb2-4c9a-95a4-99e1cb5a6951	Error: Cannot write headers after they are sent to the client
+20240907	09:17:57	1ecb256e-c897-487d-bbd9-6b286ed8307a	Error: Cannot write headers after they are sent to the client
+20240907	09:17:57	7de07954-175b-40a8-9609-bf0d09ea0493	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\client\public\views\favicon.ico'
+20240907	09:17:57	ab6abdf8-d886-47d0-a2d8-ee5787ca6583	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\server\views\404.html'
+20240907	09:18:06	48e38dca-c804-4631-8f40-caebde4cc3b7	Error: Cannot write headers after they are sent to the client
+20240907	09:18:06	ca469e7f-efe4-4ede-95c7-918141151270	Error: Cannot write headers after they are sent to the client
+20240907	09:18:06	5579fa7d-9c42-4201-a2d2-9f557354be60	Error: Cannot write headers after they are sent to the client
+20240907	09:18:06	5c303b03-9e3e-407a-8234-5639cc9762dc	Error: Cannot write headers after they are sent to the client
+20240907	09:18:06	02c19acc-6411-470f-98a5-2abfdb3b25c7	Error: Cannot write headers after they are sent to the client
+20240907	09:18:06	80c7920c-6048-416d-a04e-1e69dccf2ea9	Error: Cannot write headers after they are sent to the client
+20240907	09:18:07	d813a482-a4a0-4bb6-917b-3b1cdc997bed	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\client\public\views\favicon.ico'
+20240907	09:18:07	75b7f49e-ad62-4129-8115-335de1a6edca	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\server\views\404.html'
+20240907	09:19:30	96852a9d-85ca-4edc-816e-ecb0c2c7ead1	Error: Cannot write headers after they are sent to the client
+20240907	09:19:30	d5151dc4-a659-44df-8d5a-fbd3eaa14aca	Error: Cannot write headers after they are sent to the client
+20240907	09:19:30	0c265b0e-2921-4585-9157-932b20375360	Error: Cannot write headers after they are sent to the client
+20240907	09:19:30	7c569f8b-a6a0-41a8-906e-5da3c2803f0f	Error: Cannot write headers after they are sent to the client
+20240907	09:19:30	f67dd4be-25f6-4ba7-abc5-564efd361794	Error: Cannot write headers after they are sent to the client
+20240907	09:19:30	79c9b445-6331-4238-9436-5e955349ca33	Error: Cannot write headers after they are sent to the client
+20240907	09:19:31	a9a413d1-f96a-470e-8e57-9170631a076a	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\client\public\views\favicon.ico'
+20240907	09:19:31	86e97b87-11fa-4bf3-955f-89acab6c6f3b	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\server\views\404.html'
+20240907	09:21:28	6ca47ca0-696c-49e0-addc-40eb0a41130e	Error: Cannot write headers after they are sent to the client
+20240907	09:21:29	07a5d09c-894f-4401-8b29-22ef44d165a8	Error: Cannot write headers after they are sent to the client
+20240907	09:21:29	04f86f01-8599-4211-bc68-6213fba76e4c	Error: Cannot write headers after they are sent to the client
+20240907	09:21:29	53d80071-b98f-44b6-a9e6-d1d622262318	Error: Cannot write headers after they are sent to the client
+20240907	09:21:29	84c3c1d8-554c-46a1-977a-9347005bcc78	Error: Cannot write headers after they are sent to the client
+20240907	09:21:29	1b5bc857-53c3-4e3d-afeb-b63938b04a5e	Error: Cannot write headers after they are sent to the client
+20240907	09:21:29	abcdb0f2-2129-4d9f-8a11-ac54b43e4625	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\client\public\views\favicon.ico'
+20240907	09:21:29	4a457483-7458-49c4-b993-958591cc8a9b	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\server\views\404.html'
+20240907	09:23:13	7312f78f-c38d-4ded-8cda-3c9bd15f3b0a	Error: Cannot write headers after they are sent to the client
+20240907	09:23:13	73d2804c-3604-4056-ad41-cbcd10147d6e	Error: Cannot write headers after they are sent to the client
+20240907	09:23:13	f68c40c5-a511-4ec4-ae6f-5f568b6a7034	Error: Cannot write headers after they are sent to the client
+20240907	09:23:13	b84e632b-1090-433b-b6ea-01ae37a14671	Error: Cannot write headers after they are sent to the client
+20240907	09:23:13	ffb37c41-0d42-41e4-8df4-74d3c86e7f40	Error: Cannot write headers after they are sent to the client
+20240907	09:23:13	375abfd5-ca4f-45f9-9532-e1be4d102099	Error: Cannot write headers after they are sent to the client
+20240907	09:23:13	a6ffe02f-2e03-41d6-8e3f-6ee27684c545	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\client\public\views\favicon.ico'
+20240907	09:23:13	ca81837a-1b10-4e98-9b59-faabb53b886d	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\server\views\404.html'
+20240907	09:25:42	bd587974-5a87-4aa5-a7ae-762eebd215e5	Error: Cannot write headers after they are sent to the client
+20240907	09:25:42	4fd9647d-3e70-4b19-822e-24733c37d5cd	Error: Cannot write headers after they are sent to the client
+20240907	09:25:42	b76300af-7e65-4399-b2df-2d68c629aa67	Error: Cannot write headers after they are sent to the client
+20240907	09:25:42	0411d05e-999a-460a-99f0-6c11249e7736	Error: Cannot write headers after they are sent to the client
+20240907	09:25:42	4c25b123-5ab0-4e1b-b3ad-376105a57daf	Error: Cannot write headers after they are sent to the client
+20240907	09:25:42	9c91407f-0baf-49d0-8bf7-f335be181961	Error: Cannot write headers after they are sent to the client
+20240907	09:25:43	e6864ff6-2ce9-40d7-9077-e4a9b437c61a	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\client\public\views\favicon.ico'
+20240907	09:25:43	e362bfb9-46d1-469a-9e86-3d738f92efb1	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\server\views\404.html'
+20240907	09:26:04	5039f5e7-fd27-4f2b-afe4-fafbec7f3014	Error: Cannot write headers after they are sent to the client
+20240907	09:26:04	12b1ba86-a2c7-40dd-8c5c-d559de47df11	Error: Cannot write headers after they are sent to the client
+20240907	09:26:04	3c47a377-3458-4d1f-8658-889b49d04545	Error: Cannot write headers after they are sent to the client
+20240907	09:26:04	42852b7d-91aa-484f-b594-4396d91c3d81	Error: Cannot write headers after they are sent to the client
+20240907	09:26:04	db9e9b63-d264-49b6-94c0-493c535d62ba	Error: Cannot write headers after they are sent to the client
+20240907	09:26:04	25934b23-e746-4fb4-a64b-2b428f06655f	Error: Cannot write headers after they are sent to the client
+20240907	09:26:04	7bbb0133-215e-45f2-b3d5-5e2c78d773d8	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\client\public\views\favicon.ico'
+20240907	09:26:04	c5a4a82a-79be-4647-8219-1b8bc2ed49e6	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\server\views\404.html'
+20240907	09:26:22	8e5614c9-d2c5-4910-a5ac-28f1a0891b2e	Error: Cannot write headers after they are sent to the client
+20240907	09:26:22	07875fd0-79e9-4c08-8f36-c47c36ab092c	Error: Cannot write headers after they are sent to the client
+20240907	09:26:22	87ea5be3-20dc-46ff-bc91-70d7a40a6762	Error: Cannot write headers after they are sent to the client
+20240907	09:26:22	759cfa58-0ed9-45e0-b3eb-0701b89eadac	Error: Cannot write headers after they are sent to the client
+20240907	09:26:22	2fd879ce-cade-42e9-b659-779d0db67285	Error: Cannot write headers after they are sent to the client
+20240907	09:26:22	1f66adc5-bd17-4e35-9afb-6f3d3fed67f7	Error: Cannot write headers after they are sent to the client
+20240907	09:26:22	eb441b97-6621-4107-b202-84b462799bfc	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\client\public\views\favicon.ico'
+20240907	09:26:22	490a54aa-4f4a-43c5-bb09-a33edba729df	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\server\views\404.html'
+20240907	09:26:27	4c4c5f59-b9f7-4ff4-9201-00c718884e85	Error: Cannot write headers after they are sent to the client
+20240907	09:26:27	c3aaf2a5-d6ff-435f-a326-34215491b38d	Error: Cannot write headers after they are sent to the client
+20240907	09:26:27	b05328ca-af39-4aa5-a29d-fedd2e1c066a	Error: Cannot write headers after they are sent to the client
+20240907	09:26:27	aecbc32d-cc1c-488f-9d33-608976c321f0	Error: Cannot write headers after they are sent to the client
+20240907	09:26:27	2009af5c-eb29-490d-95ba-3907198776d7	Error: Cannot write headers after they are sent to the client
+20240907	09:26:27	17d688f3-b207-4498-a246-1036f210da9d	Error: Cannot write headers after they are sent to the client
+20240907	09:26:27	a10ea1e7-3e4b-4627-9d87-9877af3e7f88	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\client\public\views\favicon.ico'
+20240907	09:26:27	3fa0a4bb-76ec-408f-b1bd-b405efd92b67	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\server\views\404.html'
+20240907	09:28:55	59db0ef2-86b5-4c31-825a-058722c6268c	Error: Cannot write headers after they are sent to the client
+20240907	09:28:55	563e0ea9-d688-4c47-923b-06afdbaf3f08	Error: Cannot write headers after they are sent to the client
+20240907	09:28:55	bfe204a3-d636-4e88-a0fa-809d26d20040	Error: Cannot write headers after they are sent to the client
+20240907	09:28:55	f2912b8a-2881-4bf4-80ba-0ebf989d7d91	Error: Cannot write headers after they are sent to the client
+20240907	09:28:55	c5933288-e87c-48a0-ad80-a701e57245ff	Error: Cannot write headers after they are sent to the client
+20240907	09:28:55	a75df93e-2b2b-4982-a875-a44a55082ba5	Error: Cannot write headers after they are sent to the client
+20240907	09:28:55	f8c07397-db1b-4a8c-8256-075b8ff5632d	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\client\public\views\favicon.ico'
+20240907	09:28:55	ea89afb3-5543-4bbc-82c0-18a7d90d9821	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\server\views\404.html'
+20240907	09:29:15	c68936cb-56e8-4674-b2b8-255aeeca8af0	Error: Cannot write headers after they are sent to the client
+20240907	09:29:15	00af7edd-d1a0-4d71-b06c-3f210e65770d	Error: Cannot write headers after they are sent to the client
+20240907	09:29:15	eea1cd6c-d5cd-44a6-b69c-e007deb550f1	Error: Cannot write headers after they are sent to the client
+20240907	09:29:15	ce2a3331-439c-4799-9677-2ec9cf6f2e70	Error: Cannot write headers after they are sent to the client
+20240907	09:29:15	49c245d2-7f0e-4792-b102-2289f4801b38	Error: Cannot write headers after they are sent to the client
+20240907	09:29:15	dc5c09a9-6768-4ab2-9f80-b2f6bb58e738	Error: Cannot write headers after they are sent to the client
+20240907	09:29:15	bba81a0d-30d2-4841-bf72-37d4a45697c6	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\client\public\views\favicon.ico'
+20240907	09:29:15	4dab01ff-221a-44f4-9b5e-566d4b5f3a59	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\server\views\404.html'
+20240907	09:29:22	5ce95a49-6493-4fea-bf48-3fdfc84de2b7	Error: Cannot write headers after they are sent to the client
+20240907	09:29:22	e1418f2b-4e27-4d8f-9156-e46783ce583f	Error: Cannot write headers after they are sent to the client
+20240907	09:29:22	c5111c26-1cca-41a6-9789-3bed3d9975fc	Error: Cannot write headers after they are sent to the client
+20240907	09:29:22	df883890-01f6-48af-a601-1bfb017d85b1	Error: Cannot write headers after they are sent to the client
+20240907	09:29:22	1925d3cc-01e9-401c-b27b-c0c59ee3f3e9	Error: Cannot write headers after they are sent to the client
+20240907	09:29:22	ee6f004d-db7a-416b-ac5d-b9d0c21f0b9b	Error: Cannot write headers after they are sent to the client
+20240907	09:29:22	2c0963f3-354b-43ef-8fba-e1ed4bb75901	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\client\public\views\favicon.ico'
+20240907	09:29:22	49ab6c0a-b451-4fb0-af0f-cd4d463b3f34	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\server\views\404.html'
+20240907	09:29:26	cf1dc2a5-d5f3-4252-9787-f3a492a59200	Error: Cannot write headers after they are sent to the client
+20240907	09:29:26	930a5083-0151-45f4-ba17-cf6df36ca4e8	Error: Cannot write headers after they are sent to the client
+20240907	09:29:26	fb698784-ebaf-4c2b-b88c-c6feeb9cfc89	Error: Cannot write headers after they are sent to the client
+20240907	09:29:26	50e32e3d-19a9-4855-ba81-16018fc829c7	Error: Cannot write headers after they are sent to the client
+20240907	09:29:26	f929b86c-6f51-47e3-a015-02252cccc3d0	Error: Cannot write headers after they are sent to the client
+20240907	09:29:26	3eb44d31-ba05-4688-99d9-e1cea402c28c	Error: Cannot write headers after they are sent to the client
+20240907	09:29:26	e9febb97-6357-4464-bb04-3d1fa9073367	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\client\public\views\favicon.ico'
+20240907	09:29:26	4af93efe-5877-4814-8045-b81ccca41f3f	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\server\views\404.html'
+20240907	09:29:35	9243350b-185b-42c1-8ab7-f2ccbbc26360	Error: Cannot write headers after they are sent to the client
+20240907	09:29:35	53ed2c37-5a71-4946-901a-7cf6095a0f54	Error: Cannot write headers after they are sent to the client
+20240907	09:29:35	164a5bb8-a80e-40e0-843b-c0f4595ab0b0	Error: Cannot write headers after they are sent to the client
+20240907	09:29:35	3b482bc3-fa26-4553-86a2-77c400c55867	Error: Cannot write headers after they are sent to the client
+20240907	09:29:35	a411ce47-dfc2-4e98-94ea-ecaa489d7563	Error: Cannot write headers after they are sent to the client
+20240907	09:29:36	999e02e3-202c-49a1-878c-f11be3703fdb	Error: Cannot write headers after they are sent to the client
+20240907	09:29:36	cf1c98ed-08d0-4c54-9f54-2312879117f3	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\client\public\views\favicon.ico'
+20240907	09:29:36	4d932052-fdbf-41f9-99ce-cdc52e7ce5de	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\server\views\404.html'
+20240907	09:29:41	cb629a9b-693b-423d-ad01-389907b00d1e	Error: Cannot write headers after they are sent to the client
+20240907	09:29:41	0cd7b086-8991-4b68-9c78-d0f7bb66b834	Error: Cannot write headers after they are sent to the client
+20240907	09:29:41	ab971cf8-5c0b-43ca-abdd-dd9c69b25beb	Error: Cannot write headers after they are sent to the client
+20240907	09:29:41	8c59f181-125e-477b-a759-aa2a725d3815	Error: Cannot write headers after they are sent to the client
+20240907	09:29:41	08783d7b-dd45-44a5-b6d7-ffe7f8f46b5b	Error: Cannot write headers after they are sent to the client
+20240907	09:29:41	81ca7a6f-3984-49eb-b2f7-22518d2cc25d	Error: Cannot write headers after they are sent to the client
+20240907	09:29:41	9ba5821b-de2a-4372-a6f8-4eb1425c100f	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\client\public\views\favicon.ico'
+20240907	09:29:41	636ce8a8-bdeb-458c-ad11-efb6685f2f1e	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\server\views\404.html'
+20240907	09:30:04	28fa9d6d-6a51-4e50-bb91-b46eb2d714b1	Error: Cannot write headers after they are sent to the client
+20240907	09:30:04	9f04e23f-a68c-4cd7-97ef-434d3b73882f	Error: Cannot write headers after they are sent to the client
+20240907	09:30:04	ba8006ac-5eff-49f9-8b26-88a692cdc275	Error: Cannot write headers after they are sent to the client
+20240907	09:30:04	54515ba6-ae3c-4f9a-a155-458ca70bb6ac	Error: Cannot write headers after they are sent to the client
+20240907	09:30:04	ec2b0c70-809c-45bc-9cac-1b3238e9f73f	Error: Cannot write headers after they are sent to the client
+20240907	09:30:04	e4b97175-0191-4450-8ba6-a61629bbae90	Error: Cannot write headers after they are sent to the client
+20240907	09:30:04	2bd3c6fa-55a5-4ce9-a438-59265ff79c10	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\client\public\views\favicon.ico'
+20240907	09:30:04	8377f731-1c36-4199-9ae9-6161669b5a04	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\server\views\404.html'
+20240907	09:30:09	cd61f5c4-3bf2-4c08-b7c5-b5d795749668	Error: Cannot write headers after they are sent to the client
+20240907	09:30:09	536fcb72-d60e-494d-9c9b-d3f59ce5a78c	Error: Cannot write headers after they are sent to the client
+20240907	09:30:09	1496d33c-37aa-4250-ab1c-54701fbb5e8f	Error: Cannot write headers after they are sent to the client
+20240907	09:30:09	f5a02cbf-d313-406b-b09f-c4e9c9c6e19c	Error: Cannot write headers after they are sent to the client
+20240907	09:30:09	e99bbb8a-6f05-46df-8c2f-a0f35477eda9	Error: Cannot write headers after they are sent to the client
+20240907	09:30:09	e0273833-2c60-46ef-b25f-95935e102709	Error: Cannot write headers after they are sent to the client
+20240907	09:30:09	e33bbf81-6244-4129-86de-a51907c6795c	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\client\public\views\favicon.ico'
+20240907	09:30:09	9bc3ec95-73a8-479f-bc86-bbb0e5b77d61	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\server\views\404.html'
+20240907	09:31:40	5ee60e13-2068-4cce-be4b-f1b75d6622a3	Error: Cannot write headers after they are sent to the client
+20240907	09:31:40	c558ed19-44cb-4622-a75a-355fcbf78291	Error: Cannot write headers after they are sent to the client
+20240907	09:31:40	24201408-ae9a-4e8f-b162-a8e8383877ba	Error: Cannot write headers after they are sent to the client
+20240907	09:31:40	6e124f7e-7ad1-417a-8f9b-b617e908112c	Error: Cannot write headers after they are sent to the client
+20240907	09:31:40	0b0e29d8-e5a7-4ccc-87eb-6d2496eec6b6	Error: Cannot write headers after they are sent to the client
+20240907	09:31:40	e566515b-d673-4b99-983f-50ccedcbe657	Error: Cannot write headers after they are sent to the client
+20240907	09:31:40	4afc75fb-e28b-433c-853b-e74de85c8c76	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\client\public\views\favicon.ico'
+20240907	09:31:40	f9a2328c-0ce4-480c-b1a3-ba4e9e02f0d5	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\server\views\404.html'
+20240907	09:32:07	e9d704c5-b60c-492b-9c84-f82311c107cd	Error: Cannot write headers after they are sent to the client
+20240907	09:32:07	06f70a45-4125-47d4-aab8-c0a1dc7da505	Error: Cannot write headers after they are sent to the client
+20240907	09:32:07	c1294a9f-9d04-4e41-9a39-7f7fb33fc217	Error: Cannot write headers after they are sent to the client
+20240907	09:32:07	d47baf17-2b44-488d-88a5-ea5aedefb47f	Error: Cannot write headers after they are sent to the client
+20240907	09:32:07	95fc0115-9239-40fb-bd64-7bfbc99ab182	Error: Cannot write headers after they are sent to the client
+20240907	09:32:07	68e394e9-09b2-4542-a953-80a22abe2c21	Error: Cannot write headers after they are sent to the client
+20240907	09:32:07	1e3cc583-a22e-43c2-aac9-6bd5928aa2c7	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\client\public\views\favicon.ico'
+20240907	09:32:07	64abd160-aad1-446f-8a96-be26773f425b	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\server\views\404.html'
+20240907	09:32:40	d99cc53d-c3c7-4002-adbe-a9b07128cd14	Error: Cannot write headers after they are sent to the client
+20240907	09:32:40	2959f166-2842-4efd-b385-6178c442b6d9	Error: Cannot write headers after they are sent to the client
+20240907	09:32:40	82b788a0-416b-428f-a01a-3dc5fc26699b	Error: Cannot write headers after they are sent to the client
+20240907	09:32:40	5ca8fcf1-17df-4918-8950-d566423490d8	Error: Cannot write headers after they are sent to the client
+20240907	09:32:40	05dabbfd-3e1f-4e9b-943e-2a6f0407e7ec	Error: Cannot write headers after they are sent to the client
+20240907	09:32:40	f01a9d9a-ef48-4c38-bbde-0353bc3b2968	Error: Cannot write headers after they are sent to the client
+20240907	09:32:40	b15cee0f-677c-4941-9c4e-f66a8a08deca	Error: Cannot write headers after they are sent to the client
+20240907	09:32:41	e6600aa0-5f1c-449c-a269-0f259a570fef	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\client\public\views\favicon.ico'
+20240907	09:32:41	a7cfcff0-41b4-47ad-a84d-542f49846f8e	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\server\views\404.html'
+20240907	09:32:56	d62b2deb-3f5e-44b5-a8c1-8c4ef6c60193	Error: Cannot write headers after they are sent to the client
+20240907	09:32:56	1e283a2b-4415-4807-bea7-8358bb211c82	Error: Cannot write headers after they are sent to the client
+20240907	09:32:56	ba389acd-6a53-42d7-a42a-d68626c8f2f0	Error: Cannot write headers after they are sent to the client
+20240907	09:32:56	744f8421-ef7a-4ec0-a616-a57b9e3b82d0	Error: Cannot write headers after they are sent to the client
+20240907	09:32:56	3e43d3f1-232e-489e-81bc-a2a04cc2fbad	Error: Cannot write headers after they are sent to the client
+20240907	09:32:56	78a8641c-6df5-4b86-afe4-d29c4bae3617	Error: Cannot write headers after they are sent to the client
+20240907	09:32:56	aa38d27a-54c1-4f92-976d-867d1a91c88c	Error: Cannot write headers after they are sent to the client
+20240907	09:32:56	03169154-28b6-432b-8912-1f856a941e6d	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\client\public\views\favicon.ico'
+20240907	09:32:56	83adad43-a805-4f6f-9aa4-2f0e4cf8c7e3	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\server\views\404.html'
+20240907	09:33:06	ef8b5c84-7688-46f1-8df8-90fe2a9db906	Error: Cannot write headers after they are sent to the client
+20240907	09:33:06	7c69e125-21b2-4b99-80d5-7aa5010b2316	Error: Cannot write headers after they are sent to the client
+20240907	09:33:06	abb8e67c-0730-4a29-a59f-cc4ceab5b754	Error: Cannot write headers after they are sent to the client
+20240907	09:33:06	0cd125f4-01c7-4dd2-b39d-67c0020759b5	Error: Cannot write headers after they are sent to the client
+20240907	09:33:06	b5e58baf-b4cc-4eb2-8cbf-949438238919	Error: Cannot write headers after they are sent to the client
+20240907	09:33:06	3709635e-c9fb-4282-9267-65a3c8b4f7da	Error: Cannot write headers after they are sent to the client
+20240907	09:33:06	8b8f68ff-9731-4b98-b28c-dfc80db4105a	Error: Cannot write headers after they are sent to the client
+20240907	09:33:06	12e71e3a-2bd2-4650-8777-da55ff66b17a	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\client\public\views\favicon.ico'
+20240907	09:33:06	4b66a854-b63e-4c9c-8ef0-09f91c7cca64	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\server\views\404.html'
+20240907	09:33:14	de2c4258-1f37-443b-a5b9-735dbfff34e0	Error: Cannot write headers after they are sent to the client
+20240907	09:33:14	268965ce-9f8f-4ec0-908a-63d29db7524f	Error: Cannot write headers after they are sent to the client
+20240907	09:33:14	3ff68d79-bcc6-4286-a70e-2c31e775897e	Error: Cannot write headers after they are sent to the client
+20240907	09:33:14	3e4d3e3d-4c38-4a4a-8f4e-237b8f27c414	Error: Cannot write headers after they are sent to the client
+20240907	09:33:14	a240a53f-95e7-4f74-aac2-f4c6f99fd19e	Error: Cannot write headers after they are sent to the client
+20240907	09:33:14	17d9ebb2-7860-4316-bbf9-4a105864c8d7	Error: Cannot write headers after they are sent to the client
+20240907	09:33:14	c534c634-0ddd-423c-8987-c8e5864f835b	Error: Cannot write headers after they are sent to the client
+20240907	09:33:14	cfc574b2-ffbe-4f08-9bed-019041408b41	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\client\public\views\favicon.ico'
+20240907	09:33:14	1a386b1b-65dc-4fbf-9929-c31006a328c4	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\server\views\404.html'
+20240907	09:33:21	f45d3c8e-a8db-4f78-9281-eb9699a0a28b	Error: Cannot write headers after they are sent to the client
+20240907	09:33:21	655fbba1-42fc-4112-a6a4-93a50774fc54	Error: Cannot write headers after they are sent to the client
+20240907	09:33:21	25a5b3d1-a944-449a-b6a2-f9cd0f8f0591	Error: Cannot write headers after they are sent to the client
+20240907	09:33:21	5435099f-3d8b-4a1b-a0f5-27060e613fdf	Error: Cannot write headers after they are sent to the client
+20240907	09:33:21	ba3bf077-4cfa-4f00-b9e2-76af9a4f402b	Error: Cannot write headers after they are sent to the client
+20240907	09:33:21	615066b9-f104-4a54-98eb-5953fb1e821b	Error: Cannot write headers after they are sent to the client
+20240907	09:33:21	f86334b4-acd2-4ff8-bf6f-c83d5d3cb6ac	Error: Cannot write headers after they are sent to the client
+20240907	09:33:21	4b53321a-0237-46ee-a6f5-487579470880	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\client\public\views\favicon.ico'
+20240907	09:33:21	45645a99-ed8a-49c4-84bb-b8292a480ad5	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\server\views\404.html'
+20240907	09:34:46	b56b1efe-08cf-444e-80e8-e26384e237e8	Error: Cannot write headers after they are sent to the client
+20240907	09:34:46	1c84e8a0-17cb-41df-8dd1-08fc3480aebf	Error: Cannot write headers after they are sent to the client
+20240907	09:34:46	ec0293d1-c999-450b-8433-c03f810308d8	Error: Cannot write headers after they are sent to the client
+20240907	09:34:46	4e377b13-72fd-44d8-b997-892e35d95c46	Error: Cannot write headers after they are sent to the client
+20240907	09:34:47	94a6b8f6-acec-48df-adc3-47eb0f18239a	Error: Cannot write headers after they are sent to the client
+20240907	09:34:47	e8f5bd44-1c3c-414e-a498-0655aa393057	Error: Cannot write headers after they are sent to the client
+20240907	09:34:47	265db370-edb1-4227-8ce9-a260563355e1	Error: Cannot write headers after they are sent to the client
+20240907	09:34:47	033a9f89-5e25-463d-a98e-65eacc9100bb	Error: Cannot write headers after they are sent to the client
+20240907	09:34:47	3e2b6a37-a3c9-439b-a699-4f3ffbc47da7	Error: Cannot write headers after they are sent to the client
+20240907	09:34:47	3ec11e6b-bb05-427c-94fb-c7e90bf7a290	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\client\public\views\favicon.ico'
+20240907	09:34:47	50c74e90-675e-499e-a344-ef1e18dc535f	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\server\views\404.html'
+20240907	09:37:34	9c9bd9b1-4bd8-4a02-9b29-75a4bb7e60f9	Error: Cannot write headers after they are sent to the client
+20240907	09:37:34	bb24078f-e174-4c3b-ab82-0b0708e1055e	Error: Cannot write headers after they are sent to the client
+20240907	09:37:34	cba048c6-b425-4585-9071-301f1f1830e6	Error: Cannot write headers after they are sent to the client
+20240907	09:37:35	336af989-b0d4-4d42-9b5e-e808aaaa27fb	Error: Cannot write headers after they are sent to the client
+20240907	09:37:35	d1353e63-dec8-4b46-8529-8519afaeb5de	Error: Cannot write headers after they are sent to the client
+20240907	09:37:35	65dd3a56-9863-422f-9800-2f97514913bc	Error: Cannot write headers after they are sent to the client
+20240907	09:37:35	29afc916-2722-41c7-8a05-4d81ab7e0218	Error: Cannot write headers after they are sent to the client
+20240907	09:37:35	e90462e8-5798-42a6-b3b6-24f572a2e189	Error: Cannot write headers after they are sent to the client
+20240907	09:37:35	af0d362b-c6f9-491b-9fc1-2ca5b2639b23	Error: Cannot write headers after they are sent to the client
+20240907	09:37:35	67bc7908-7b78-4f84-936e-dd1b21f9bb3c	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\client\public\views\favicon.ico'
+20240907	09:37:35	649001a2-e2d3-40b9-be17-842e6fd4b817	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\server\views\404.html'
+20240907	09:38:11	40d25f89-fade-4ae2-b70f-e7e8cdecbb37	Error: Cannot write headers after they are sent to the client
+20240907	09:38:11	0d602e6e-982a-4ab0-abc4-ec5795e2cc17	Error: Cannot write headers after they are sent to the client
+20240907	09:38:11	679ecf7c-900b-40d8-af3e-2dcbd97cf83e	Error: Cannot write headers after they are sent to the client
+20240907	09:38:11	183f864b-6aaf-4963-9761-478c184f4e05	Error: Cannot write headers after they are sent to the client
+20240907	09:38:11	50f1c71e-c260-4ef5-bf3b-a31e0517ffc4	Error: Cannot write headers after they are sent to the client
+20240907	09:38:11	87e6c93c-c531-4f07-ab8f-2681f4087e82	Error: Cannot write headers after they are sent to the client
+20240907	09:38:11	d1d56628-2e69-4f1f-9e3c-9ff1327ebc5e	Error: Cannot write headers after they are sent to the client
+20240907	09:38:11	2c161cb6-c5d1-44d8-bfc2-f794b00c57e7	Error: Cannot write headers after they are sent to the client
+20240907	09:38:11	6bd23d4c-5586-40c0-8e4e-7d57aea80a1f	Error: Cannot write headers after they are sent to the client
+20240907	09:38:12	a9a69340-fcb2-4fa3-bad2-35ce526dc1b6	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\client\public\views\favicon.ico'
+20240907	09:38:12	28713640-cc4b-4bee-8d3e-1b8d1eec55f6	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\server\views\404.html'
+20240907	09:39:06	b404f115-9caa-4a0f-a85b-eae84cf52eb6	Error: Cannot write headers after they are sent to the client
+20240907	09:39:06	77370298-3e32-490d-a31a-4f334d081ed7	Error: Cannot write headers after they are sent to the client
+20240907	09:39:06	2c8488de-8493-4492-8029-0c31800e1174	Error: Cannot write headers after they are sent to the client
+20240907	09:39:06	8df2f758-461a-4a6b-9fcd-9facc59f5cbb	Error: Cannot write headers after they are sent to the client
+20240907	09:39:06	52f9a8c2-d665-4c27-b7f3-b44e06f47e20	Error: Cannot write headers after they are sent to the client
+20240907	09:39:06	2f3bec03-1cb8-49e9-ba26-652f52cd79cb	Error: Cannot write headers after they are sent to the client
+20240907	09:39:06	60374440-2db1-470f-ad13-44496957b800	Error: Cannot write headers after they are sent to the client
+20240907	09:39:06	317ccceb-dc39-49f4-be3b-95e99b676a28	Error: Cannot write headers after they are sent to the client
+20240907	09:39:06	340e3a36-53f6-443a-9c8e-ec8188c130da	Error: Cannot write headers after they are sent to the client
+20240907	09:39:07	0bd38ec5-7388-4278-86d0-48729e3bddd2	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\client\public\views\favicon.ico'
+20240907	09:39:07	8b30a6da-9181-47e1-ba6b-b81aa2e0ba1f	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\server\views\404.html'
+20240907	09:40:45	0663d931-468a-46c9-a927-7d6397df2323	Error: Cannot write headers after they are sent to the client
+20240907	09:40:45	16a4ec3b-5afc-424b-ab01-639134bb0e5b	Error: Cannot write headers after they are sent to the client
+20240907	09:40:45	6a5e8b26-c50a-4f75-acec-8a43bd7e6819	Error: Cannot write headers after they are sent to the client
+20240907	09:40:45	fd025aba-3a28-4413-a17b-c0053e4f3a38	Error: Cannot write headers after they are sent to the client
+20240907	09:40:45	47ea4ff6-f995-4627-aee2-a575836ea2be	Error: Cannot write headers after they are sent to the client
+20240907	09:40:45	eaece0ac-043c-4826-bc2c-b068dd592c65	Error: Cannot write headers after they are sent to the client
+20240907	09:40:45	1cda5073-5176-4b82-97c8-5f8f7a1b98bc	Error: Cannot write headers after they are sent to the client
+20240907	09:40:45	8ba36af7-83c4-476f-bf9e-f81e40945465	Error: Cannot write headers after they are sent to the client
+20240907	09:40:45	1d706cf5-4c31-4a7b-b4d8-5f7f362280d1	Error: Cannot write headers after they are sent to the client
+20240907	09:40:46	fd7ca5af-db85-4e05-adbf-9a9b3d0c36dc	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\client\public\views\favicon.ico'
+20240907	09:40:46	6582d2b4-fcbe-4810-8b6c-c6adc874fd43	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\server\views\404.html'
+20240907	09:42:16	f7696e2e-5589-4f4c-b9fb-49fe79a3efad	Error: Cannot write headers after they are sent to the client
+20240907	09:42:16	37ec90d4-448b-4836-b52f-95045796b7a6	Error: Cannot write headers after they are sent to the client
+20240907	09:42:16	707624b0-b65d-40af-a251-543ec39741f8	Error: Cannot write headers after they are sent to the client
+20240907	09:42:16	065f0b1f-bef4-40bc-90bc-6559d7df5f6c	Error: Cannot write headers after they are sent to the client
+20240907	09:42:16	9ef71aa9-f581-4858-9ba3-e5a841f99b0c	Error: Cannot write headers after they are sent to the client
+20240907	09:42:16	84048763-b7b9-4333-8b65-114d3c281ee2	Error: Cannot write headers after they are sent to the client
+20240907	09:42:16	d11d78fd-8424-47d7-9eba-8a0e6332e876	Error: Cannot write headers after they are sent to the client
+20240907	09:42:16	2ec2d37c-538c-4aba-98d3-3ef541dff445	Error: Cannot write headers after they are sent to the client
+20240907	09:42:16	3bca8dc9-db62-4fb2-a631-79fcb8d3b308	Error: Cannot write headers after they are sent to the client
+20240907	09:42:16	ebf150e2-f4be-449c-80a2-e6ab5a436fa2	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\client\public\views\favicon.ico'
+20240907	09:42:16	bfba3178-9250-4ef0-9258-40e3488894ab	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\server\views\404.html'
+20240907	09:43:54	debb399a-7c75-41d4-827e-2c8c25f9986c	Error: Cannot write headers after they are sent to the client
+20240907	09:43:55	45c874d7-13bf-4bd1-81ea-9a4953e95453	Error: Cannot write headers after they are sent to the client
+20240907	09:43:55	aa49998a-7746-49bb-996e-fae28e7eec82	Error: Cannot write headers after they are sent to the client
+20240907	09:43:55	04a6ad90-5831-4ec3-a545-a2369a32e98b	Error: Cannot write headers after they are sent to the client
+20240907	09:43:55	bbe1d9c1-25c6-43bd-871f-edfb618dda87	Error: Cannot write headers after they are sent to the client
+20240907	09:43:55	2a8ff34b-0cac-4a18-8018-eb04a80c5204	Error: Cannot write headers after they are sent to the client
+20240907	09:43:55	73ac7ba9-48e6-4542-a801-6d27fa5522a8	Error: Cannot write headers after they are sent to the client
+20240907	09:43:55	db5b5b07-8d65-4f6e-9b11-6520af2734a4	Error: Cannot write headers after they are sent to the client
+20240907	09:43:55	81a0e497-7c7e-4fae-8c0e-ed66f35fd81e	Error: Cannot write headers after they are sent to the client
+20240907	09:43:55	9b7ee1c8-f3e0-4918-a9ae-fb040f817274	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\client\public\views\favicon.ico'
+20240907	09:43:55	1f259192-f345-44e9-a24f-c7c241a51af0	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\server\views\404.html'
+20240907	09:46:16	0aa209be-ce92-490d-9942-7f0f2332df52	Error: Cannot write headers after they are sent to the client
+20240907	09:46:16	3bba3d8d-0215-49f5-a2d1-36304be79d07	Error: Cannot write headers after they are sent to the client
+20240907	09:46:16	b3df202d-5d9b-4eba-a3ae-0ff739cadb93	Error: Cannot write headers after they are sent to the client
+20240907	09:46:16	68a6c02a-683d-43e9-b82c-42b84e93c3bf	Error: Cannot write headers after they are sent to the client
+20240907	09:46:16	64a5510a-3605-4a6b-9fe9-957131bde328	Error: Cannot write headers after they are sent to the client
+20240907	09:46:16	e9cb1d25-2222-40ff-a94c-0e5bec1e517d	Error: Cannot write headers after they are sent to the client
+20240907	09:46:16	9f86ad0c-bdf7-4a65-840f-8a613ce62f6b	Error: Cannot write headers after they are sent to the client
+20240907	09:46:16	645907e6-56c0-49e2-a73b-4e598475519e	Error: Cannot write headers after they are sent to the client
+20240907	09:46:16	092d7527-7728-4fba-810b-1a8792db7eeb	Error: Cannot write headers after they are sent to the client
+20240907	09:46:17	de119208-3331-4675-b385-89baff88148c	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\client\public\views\favicon.ico'
+20240907	09:46:17	18874270-9a3b-41b1-a0a9-bdc1287dd0f6	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\server\views\404.html'
+20240907	09:48:04	5e3cbc8f-af88-4fd8-8c70-b232b427567e	Error: Cannot write headers after they are sent to the client
+20240907	09:48:04	c3c646d6-c94c-43f4-a92d-ca6dabb2f57a	Error: Cannot write headers after they are sent to the client
+20240907	09:48:04	2a521ffb-9294-4286-b313-8a052d920394	Error: Cannot write headers after they are sent to the client
+20240907	09:48:04	6dca6236-26cd-4ee4-bd7a-b25042bfa343	Error: Cannot write headers after they are sent to the client
+20240907	09:48:04	6c752ed8-d18e-439e-afb4-393eddf4f158	Error: Cannot write headers after they are sent to the client
+20240907	09:48:04	bc8301d8-1b25-481d-bed8-12e7a516bc08	Error: Cannot write headers after they are sent to the client
+20240907	09:48:04	b9b1a259-b5d4-4349-aad7-29711d69fd93	Error: Cannot write headers after they are sent to the client
+20240907	09:48:04	0806306e-7370-4db4-b4e6-94d8c78977a3	Error: Cannot write headers after they are sent to the client
+20240907	09:48:04	64c2c667-f737-4d7b-81b5-4fec971cb742	Error: Cannot write headers after they are sent to the client
+20240907	09:48:04	daf4376d-e736-4ddd-84d4-ccbd5d29ac8e	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\client\public\views\favicon.ico'
+20240907	09:48:04	2785ffc9-2062-4d8b-820c-f9c274525322	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\server\views\404.html'
+20240907	09:50:32	6f01f384-6eba-46a4-a628-f2c747f7e48e	Error: Cannot write headers after they are sent to the client
+20240907	09:50:32	ea5d7f36-1935-45f4-90cf-a47228d859f8	Error: Cannot write headers after they are sent to the client
+20240907	09:50:32	6434f354-d678-480a-bc4b-2e748639ac27	Error: Cannot write headers after they are sent to the client
+20240907	09:50:32	f114a4eb-266e-424c-a139-b9dd9e3261fc	Error: Cannot write headers after they are sent to the client
+20240907	09:50:32	2774d6dd-8ca8-400d-a831-fda57e257062	Error: Cannot write headers after they are sent to the client
+20240907	09:50:32	d9face92-54a4-421d-9a6a-99db7418ac20	Error: Cannot write headers after they are sent to the client
+20240907	09:50:32	fb464866-cca8-45c6-a6ee-f3c07caad44d	Error: Cannot write headers after they are sent to the client
+20240907	09:50:32	7a4945af-3ebc-4b7b-aad2-b11709b47a94	Error: Cannot write headers after they are sent to the client
+20240907	09:50:32	8a1e886b-1d69-433b-a6d3-880701ae9ea3	Error: Cannot write headers after they are sent to the client
+20240907	09:50:33	bba44639-a5cd-4ab0-b776-41e81a3bdb82	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\client\public\views\favicon.ico'
+20240907	09:50:33	617262f9-3100-4d9d-bdba-bba5ba724a6f	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\server\views\404.html'
+20240907	09:54:12	98c36ef5-94bb-4be1-838b-bacd172658c1	Error: Cannot write headers after they are sent to the client
+20240907	09:54:12	95342a18-bc9c-4fef-a22f-e42d9778faae	Error: Cannot write headers after they are sent to the client
+20240907	09:54:12	44351c32-4029-462a-912a-30e57e689ba9	Error: Cannot write headers after they are sent to the client
+20240907	09:54:12	aa93ce08-3467-43cf-9452-3ed19f831fd8	Error: Cannot write headers after they are sent to the client
+20240907	09:54:12	bedbc44a-3631-4058-bb13-e36c8710bfdc	Error: Cannot write headers after they are sent to the client
+20240907	09:54:12	cfe87fed-b2a7-4a6a-95b2-45343422305e	Error: Cannot write headers after they are sent to the client
+20240907	09:54:12	207e87fa-6d67-4677-94ba-48330533de2c	Error: Cannot write headers after they are sent to the client
+20240907	09:54:12	b070f733-40ea-494d-acce-a8b5cfff8245	Error: Cannot write headers after they are sent to the client
+20240907	09:54:12	ee92d7f8-640d-428d-b8a8-2eaa386f77ab	Error: Cannot write headers after they are sent to the client
+20240907	09:54:13	f9883f3a-5d0a-4bcc-84f9-245db4b983ce	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\client\public\views\favicon.ico'
+20240907	09:54:13	cf9d65ed-50a7-4558-b6b7-c0eb2576e12e	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\server\views\404.html'
+20240907	09:55:46	31f3050d-11a6-4ae0-8f68-62a352b509c8	Error: Cannot write headers after they are sent to the client
+20240907	09:55:47	92170e17-7b39-466d-8880-231c63ca126a	Error: Cannot write headers after they are sent to the client
+20240907	09:55:47	1b3a8d01-9af0-493e-983b-c9dfb0193425	Error: Cannot write headers after they are sent to the client
+20240907	09:55:47	1bd71949-0b1e-40a2-8f17-3383084bd3da	Error: Cannot write headers after they are sent to the client
+20240907	09:55:47	e69e5014-6376-49ca-b950-784e1fe71612	Error: Cannot write headers after they are sent to the client
+20240907	09:55:47	4a6cd1b8-a98b-4403-adde-3cb0590b77f9	Error: Cannot write headers after they are sent to the client
+20240907	09:55:47	7a07ed9d-a654-4426-bfa7-f95443c85d3b	Error: Cannot write headers after they are sent to the client
+20240907	09:55:47	a7c3cddf-63be-47c2-8ef1-7502849461f8	Error: Cannot write headers after they are sent to the client
+20240907	09:55:47	57bfcd6f-9964-4e60-80fc-6fa8370a4334	Error: Cannot write headers after they are sent to the client
+20240907	09:55:47	5014c24c-e19e-441c-a228-364e3bceb1de	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\client\public\views\favicon.ico'
+20240907	09:55:47	066512b8-c7c7-4089-86c1-82f402b6f558	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\server\views\404.html'
+20240907	09:56:11	bda59f01-14a7-4b29-a759-0e0f12c32832	Error: Cannot write headers after they are sent to the client
+20240907	09:56:11	72a3ac2e-5298-4ce6-91ee-78c07823f87a	Error: Cannot write headers after they are sent to the client
+20240907	09:56:11	1670676a-2dfd-4c2b-87e2-d7cae4b9ef96	Error: Cannot write headers after they are sent to the client
+20240907	09:56:11	e6443d5e-fc7c-4b92-9fe0-d0fc6a3d4907	Error: Cannot write headers after they are sent to the client
+20240907	09:56:11	1cd71c7d-99d8-4d32-bef8-c4c2c0a6ffb9	Error: Cannot write headers after they are sent to the client
+20240907	09:56:11	ec30e210-dd69-40a7-9570-7a8362ff5692	Error: Cannot write headers after they are sent to the client
+20240907	09:56:11	63ad8ba5-1e70-4656-a35a-dc075f77fcfe	Error: Cannot write headers after they are sent to the client
+20240907	09:56:11	1ba229df-3aa7-4424-a80f-d801a6244a58	Error: Cannot write headers after they are sent to the client
+20240907	09:56:11	ac823c55-0a64-4f66-ab86-99c337fb993f	Error: Cannot write headers after they are sent to the client
+20240907	09:56:11	6a39fe66-bc04-4455-bba1-fdf0318884e8	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\client\public\views\favicon.ico'
+20240907	09:56:11	e951c392-d685-4ee0-85fd-0355b9330b5c	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\server\views\404.html'
+20240907	09:56:47	c1f2e449-4907-4419-8525-3b27e334e8df	Error: Cannot write headers after they are sent to the client
+20240907	09:56:47	691a6521-4ba3-4624-928b-72fdddc7c17b	Error: Cannot write headers after they are sent to the client
+20240907	09:56:47	2028ad8c-479b-43e0-a3f7-a3feef3781b7	Error: Cannot write headers after they are sent to the client
+20240907	09:56:47	2eddbfd3-3c55-48e8-a70a-e285720a5aab	Error: Cannot write headers after they are sent to the client
+20240907	09:56:47	4a602273-f197-4544-acfe-a715c04d1e26	Error: Cannot write headers after they are sent to the client
+20240907	09:56:47	0060f51b-18b4-4d19-b14b-7bcd4ecbdf29	Error: Cannot write headers after they are sent to the client
+20240907	09:56:47	16a6d1f5-019b-4aad-bffa-a775ca044959	Error: Cannot write headers after they are sent to the client
+20240907	09:56:47	efc6a959-71ca-4e6c-aca7-2dba295c8827	Error: Cannot write headers after they are sent to the client
+20240907	09:56:47	8ebee600-e5fa-4a2a-8472-981542539c4a	Error: Cannot write headers after they are sent to the client
+20240907	09:56:48	1ac17763-4e98-4c81-af41-5517cee4c4e9	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\client\public\views\favicon.ico'
+20240907	09:56:48	8afef6c7-a5a8-4208-a819-197bf9e56509	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\server\views\404.html'
+20240907	09:58:04	98dbe588-5e57-4a4d-8ebc-dae22fb7e25d	Error: Cannot write headers after they are sent to the client
+20240907	09:58:04	a2b51dbf-6e35-4c94-af4e-70c4902f521d	Error: Cannot write headers after they are sent to the client
+20240907	09:58:04	4d30e37a-1e5c-423e-b5aa-35821b7179f6	Error: Cannot write headers after they are sent to the client
+20240907	09:58:04	2613a2c9-f05c-48aa-bdbf-3af730665d9f	Error: Cannot write headers after they are sent to the client
+20240907	09:58:04	7f8ea4cb-8ea7-4e2b-b3a2-810e06200a52	Error: Cannot write headers after they are sent to the client
+20240907	09:58:04	33ca4bdb-6bc4-40bb-801f-2aa92e16b3df	Error: Cannot write headers after they are sent to the client
+20240907	09:58:04	ed2372cc-8f53-4131-a361-14a6f0a0773b	Error: Cannot write headers after they are sent to the client
+20240907	09:58:04	29beb408-de93-46d6-8893-9d0d301c34b5	Error: Cannot write headers after they are sent to the client
+20240907	09:58:04	fc339f31-182d-4374-9676-2d0a81f33329	Error: Cannot write headers after they are sent to the client
+20240907	09:58:04	b0eca713-2921-4b1e-b3de-6e868962ed4c	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\client\public\views\favicon.ico'
+20240907	09:58:04	2eb3db57-13b0-4c3f-8595-3ffba63c6a2d	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\server\views\404.html'
+20240907	09:59:34	f8e56ee3-c60c-48df-8f71-0da6facb499f	Error: Cannot write headers after they are sent to the client
+20240907	09:59:34	b9484e63-d334-4366-8fe7-3f07ae8c49c7	Error: Cannot write headers after they are sent to the client
+20240907	09:59:34	95641a1e-b5bb-44db-a78c-227b0dea2b18	Error: Cannot write headers after they are sent to the client
+20240907	09:59:34	0f7e05ab-4d40-4131-95c8-c3133401eda0	Error: Cannot write headers after they are sent to the client
+20240907	09:59:34	eeca74a3-5360-471c-8288-7c7d8be2b877	Error: Cannot write headers after they are sent to the client
+20240907	09:59:34	1a80e854-9249-4c30-b35b-3e9c8376bdd6	Error: Cannot write headers after they are sent to the client
+20240907	09:59:34	402f9784-56ff-446a-bc48-65597ccaf41e	Error: Cannot write headers after they are sent to the client
+20240907	09:59:34	fb059655-448c-4909-825e-8dcc48ebdbe6	Error: Cannot write headers after they are sent to the client
+20240907	09:59:34	e8319ed5-f972-4aed-8aaa-76da82fcffc4	Error: Cannot write headers after they are sent to the client
+20240907	09:59:35	5e89002f-3c3e-40c6-8fde-4abffc03ae10	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\client\public\views\favicon.ico'
+20240907	09:59:35	de8d9b33-d6b9-432c-8fbb-bac59e651c4e	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\server\views\404.html'
+20240907	09:59:49	6a23fad4-bc39-4c34-9f9c-562541a304cf	Error: Cannot write headers after they are sent to the client
+20240907	09:59:49	f2a172ac-4fe0-4d3f-bcbd-6630a74877a1	Error: Cannot write headers after they are sent to the client
+20240907	09:59:49	6ed95b17-bf75-4c2c-b0aa-3da2a151944c	Error: Cannot write headers after they are sent to the client
+20240907	09:59:49	330abfd1-900e-4282-ab70-050b1fe724f2	Error: Cannot write headers after they are sent to the client
+20240907	09:59:49	530aec2e-b783-475a-8480-570d857debec	Error: Cannot write headers after they are sent to the client
+20240907	09:59:49	e319be6e-559a-4e4d-ad78-10d77b26e942	Error: Cannot write headers after they are sent to the client
+20240907	09:59:49	ac2acd6f-e6dd-4ed0-a2af-67620d870734	Error: Cannot write headers after they are sent to the client
+20240907	09:59:49	a97aeefa-0ee5-4726-96d9-ac7073c8fce3	Error: Cannot write headers after they are sent to the client
+20240907	09:59:49	c85a95d2-28df-4bea-84eb-15685b303d8b	Error: Cannot write headers after they are sent to the client
+20240907	09:59:50	235a23af-d016-483c-9c68-07ccb78e8348	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\client\public\views\favicon.ico'
+20240907	09:59:50	4a4801e5-85ba-43a0-9677-2ee0a0d6fe87	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\server\views\404.html'
+20240907	09:59:59	b5c83fcb-1a8b-4f44-ad41-246cf02c4f18	Error: Cannot write headers after they are sent to the client
+20240907	09:59:59	7581b3b3-5f91-4fb6-a619-2bf1bfbaed82	Error: Cannot write headers after they are sent to the client
+20240907	09:59:59	15be4c0c-4dac-4bae-91b6-acb4d6f91425	Error: Cannot write headers after they are sent to the client
+20240907	09:59:59	a7e4e01c-5fa4-4bac-84b4-28e086b2ddeb	Error: Cannot write headers after they are sent to the client
+20240907	10:00:00	852d5988-cd39-4f8d-a60f-41405a320aa3	Error: Cannot write headers after they are sent to the client
+20240907	10:00:00	1924c045-9ed4-4bed-9ad2-463ef95fd048	Error: Cannot write headers after they are sent to the client
+20240907	10:00:00	edf320c9-1ab2-42f3-929f-e5c69f69b298	Error: Cannot write headers after they are sent to the client
+20240907	10:00:00	9fd2035c-720a-4bc7-b583-4a0a17e76ba1	Error: Cannot write headers after they are sent to the client
+20240907	10:00:00	7e7a3fb7-df2d-432e-b9c5-21298b5d3157	Error: Cannot write headers after they are sent to the client
+20240907	10:00:00	055da02b-f769-4b08-975e-e62dc0722aae	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\client\public\views\favicon.ico'
+20240907	10:00:00	cf3956d0-6dcd-45c4-9698-3cb6402c87b1	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\server\views\404.html'
+20240907	10:01:25	6398329b-f599-4711-b27e-8e8354b52693	Error: Cannot write headers after they are sent to the client
+20240907	10:01:25	dcd50483-b78b-4243-a9ec-9cf7f294bdb3	Error: Cannot write headers after they are sent to the client
+20240907	10:01:25	0ee0705d-027d-4669-8738-91868480d346	Error: Cannot write headers after they are sent to the client
+20240907	10:01:25	ab3386db-cdb7-4b32-9b8d-5804917af4f9	Error: Cannot write headers after they are sent to the client
+20240907	10:01:25	bf8bf16a-48aa-4abb-9a4c-79d260275c75	Error: Cannot write headers after they are sent to the client
+20240907	10:01:25	8134d4d7-70dc-4c38-9713-15de843b9c8a	Error: Cannot write headers after they are sent to the client
+20240907	10:01:25	f0c66c45-7d42-4c00-b0c6-650f396af325	Error: Cannot write headers after they are sent to the client
+20240907	10:01:25	1709dee8-6b07-4a42-adba-00bb9db8ba16	Error: Cannot write headers after they are sent to the client
+20240907	10:01:25	8dbae92d-8420-42da-9b18-ff7d9f52bf8d	Error: Cannot write headers after they are sent to the client
+20240907	10:01:26	06f49761-61dc-415f-84f6-a3436481029e	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\client\public\views\favicon.ico'
+20240907	10:01:26	abbd94e1-c40a-40e0-84da-e36477cbd911	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\server\views\404.html'
+20240907	10:03:55	3567ef69-a550-4be3-a4f9-43050d3a70e9	Error: Cannot write headers after they are sent to the client
+20240907	10:03:55	bca906b1-a68e-42a2-97c6-5e475225e402	Error: Cannot write headers after they are sent to the client
+20240907	10:03:55	3179eb77-f774-4438-8cfb-019b3ca3632d	Error: Cannot write headers after they are sent to the client
+20240907	10:03:55	6fa9ed7a-7b0c-4ec2-8a7e-5fcac1a0eb60	Error: Cannot write headers after they are sent to the client
+20240907	10:03:55	1666ba2c-188d-4aa3-8669-f17f4fa23a44	Error: Cannot write headers after they are sent to the client
+20240907	10:03:55	5551ce30-804b-4a6a-ac18-b18730f65e8c	Error: Cannot write headers after they are sent to the client
+20240907	10:03:55	9a23f4cf-7cd9-4a7f-9673-e21df4c56d8d	Error: Cannot write headers after they are sent to the client
+20240907	10:03:55	ae5b8eb9-d8a4-4e1c-91ab-2045f56a65e0	Error: Cannot write headers after they are sent to the client
+20240907	10:03:55	4e733ff8-8cb1-4e83-85bc-771b59fd6a2a	Error: Cannot write headers after they are sent to the client
+20240907	10:03:55	e75bf0ef-5fcb-4e3e-ba02-0f9c5e64fd0d	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\client\public\views\favicon.ico'
+20240907	10:03:55	88808242-68c2-49d1-8f38-f653a35ee872	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\server\views\404.html'
+20240907	10:06:37	91295a4e-af93-4469-a90d-1d3232cccc23	Error: Cannot write headers after they are sent to the client
+20240907	10:06:37	6a5c76f6-b33a-4b04-8002-166aa82d324b	Error: Cannot write headers after they are sent to the client
+20240907	10:06:37	444f8ab9-ed11-4d2b-b35f-d97f7ed72d84	Error: Cannot write headers after they are sent to the client
+20240907	10:06:37	0e9569f5-e238-4a72-9da1-4a1fb4c19166	Error: Cannot write headers after they are sent to the client
+20240907	10:06:37	5dbcd787-5525-4ffe-bc34-2ce7551dc3d6	Error: Cannot write headers after they are sent to the client
+20240907	10:06:37	77db7c33-b21a-4062-a27d-359e4b63fe44	Error: Cannot write headers after they are sent to the client
+20240907	10:06:37	ab043b39-3a4e-4d52-aed0-7a9dc47ec479	Error: Cannot write headers after they are sent to the client
+20240907	10:06:37	7671e564-99fb-4fa5-9b47-eb69efdd68e9	Error: Cannot write headers after they are sent to the client
+20240907	10:06:37	b8faa05e-2b23-4ec6-910a-4bb0d3e9deb2	Error: Cannot write headers after they are sent to the client
+20240907	10:06:37	aef8dd4f-dbf5-40f6-b049-5c3948251f5b	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\client\public\views\favicon.ico'
+20240907	10:06:37	9f53a8ba-78d7-45a9-a102-a72b1f41416a	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\server\views\404.html'
+20240907	10:09:06	f212fc5e-d5d8-4dfd-b5eb-816c1347e9ab	Error: Cannot write headers after they are sent to the client
+20240907	10:09:06	d5ee36ca-25d5-4849-9e42-7440ba1db7d7	Error: Cannot write headers after they are sent to the client
+20240907	10:09:06	d992576f-9095-4013-ad98-ab4ad9381f6f	Error: Cannot write headers after they are sent to the client
+20240907	10:09:06	281d6437-e1e0-49a6-8537-4446308aa4c1	Error: Cannot write headers after they are sent to the client
+20240907	10:09:06	98af4252-5953-4d2e-9598-de0024114669	Error: Cannot write headers after they are sent to the client
+20240907	10:09:06	b23541c7-ffbe-4402-aa4e-919812a67633	Error: Cannot write headers after they are sent to the client
+20240907	10:09:06	84edf8e3-b503-49f3-8ce2-aa0eba2442d4	Error: Cannot write headers after they are sent to the client
+20240907	10:09:06	c11716c4-aa5f-4b8b-ab24-2cee54a4e799	Error: Cannot write headers after they are sent to the client
+20240907	10:09:06	9bb341df-6206-40f3-8fe5-ce7de8e29d61	Error: Cannot write headers after they are sent to the client
+20240907	10:09:06	515b4529-2036-4c19-bd72-b653516d9a6b	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\client\public\views\favicon.ico'
+20240907	10:09:06	66db4d7a-959a-4c0e-aa96-2f73f74fe82f	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\server\views\404.html'
+20240907	10:09:18	afe01974-3d86-4aa7-a74d-2e9f5e4a887a	Error: Cannot write headers after they are sent to the client
+20240907	10:09:18	afcc18c3-17d0-448c-b9ee-3836a3e2c2eb	Error: Cannot write headers after they are sent to the client
+20240907	10:09:18	9de42db8-d8fc-47ae-ab1f-d9a7aa211fc2	Error: Cannot write headers after they are sent to the client
+20240907	10:09:18	6e65058c-172f-498f-8ef8-ed838d5deb8c	Error: Cannot write headers after they are sent to the client
+20240907	10:09:18	37390ee6-7e80-49ce-b13c-94e729749021	Error: Cannot write headers after they are sent to the client
+20240907	10:09:18	80630353-933e-414e-8cde-c534972e7c16	Error: Cannot write headers after they are sent to the client
+20240907	10:09:18	7cdfa2da-e0ee-4ea4-9b43-deb790967c28	Error: Cannot write headers after they are sent to the client
+20240907	10:09:18	d7dfec0e-91de-4217-ab4f-4eb8a8b5a9ba	Error: Cannot write headers after they are sent to the client
+20240907	10:09:18	cc5d316b-2d75-44fd-97f2-1223f683daa1	Error: Cannot write headers after they are sent to the client
+20240907	10:09:18	c6bf2193-77c2-4fdc-99e4-b05645b89727	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\client\public\views\favicon.ico'
+20240907	10:09:18	9af4f089-3eef-4053-91bb-71a9d787e63d	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\server\views\404.html'
+20240907	10:09:28	8d99c013-5120-4fb0-9d53-ccb70eef14ca	Error: Cannot write headers after they are sent to the client
+20240907	10:09:28	0b0a3604-db2c-43dc-bedd-d7c1c6cc637e	Error: Cannot write headers after they are sent to the client
+20240907	10:09:28	1f031f47-7f64-4f84-acd3-5e3560142e0a	Error: Cannot write headers after they are sent to the client
+20240907	10:09:28	e39001d8-9acb-42b6-8e71-d218658315a2	Error: Cannot write headers after they are sent to the client
+20240907	10:09:28	ae72682b-83f8-4e91-9a96-6af6f0544f14	Error: Cannot write headers after they are sent to the client
+20240907	10:09:28	bec15fc4-628d-4133-b09c-f75bd9242430	Error: Cannot write headers after they are sent to the client
+20240907	10:09:28	11a0d86c-f26c-4933-95e1-2af4615ea1b9	Error: Cannot write headers after they are sent to the client
+20240907	10:09:28	d4b0556b-ad69-4dca-9eca-1dbf47655587	Error: Cannot write headers after they are sent to the client
+20240907	10:09:28	d4d90714-7fac-4d37-83b5-78ddedf99e53	Error: Cannot write headers after they are sent to the client
+20240907	10:09:29	7c03ea87-9426-4ce1-bb06-061ae8f941dd	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\client\public\views\favicon.ico'
+20240907	10:09:29	b61d1e34-0859-45e0-8818-00fe5a6399b2	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\server\views\404.html'
+20240907	10:09:46	1bb032d2-be10-44a9-9f08-cbbf97fc8533	Error: Cannot write headers after they are sent to the client
+20240907	10:09:46	7796e0b0-3a27-4276-8560-47b0b1ef0c32	Error: Cannot write headers after they are sent to the client
+20240907	10:09:46	b5e02df2-c471-4c44-b15c-8b2cbfe3c801	Error: Cannot write headers after they are sent to the client
+20240907	10:09:46	04bf021a-95ce-43c7-be44-baf890f12031	Error: Cannot write headers after they are sent to the client
+20240907	10:09:46	3924ee5e-9ff0-4863-8d37-1e80b4017505	Error: Cannot write headers after they are sent to the client
+20240907	10:09:46	480a332b-cded-4213-b92e-cad7c664d715	Error: Cannot write headers after they are sent to the client
+20240907	10:09:46	700c3601-f04b-4c2a-81a1-47728cad474e	Error: Cannot write headers after they are sent to the client
+20240907	10:09:46	6ecdd719-b1a7-4528-9a5f-87af234b6d01	Error: Cannot write headers after they are sent to the client
+20240907	10:09:46	b8be573a-50cc-4209-9ae1-68dc3c174ab6	Error: Cannot write headers after they are sent to the client
+20240907	10:09:46	c4d9f053-34cf-4686-a159-f920948d1123	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\client\public\views\favicon.ico'
+20240907	10:09:46	d665f6f9-7781-46bf-903a-71dbade23fe8	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\server\views\404.html'
+20240907	10:09:54	064682e0-b29c-4bc5-8f35-f43c7ab629c4	Error: Cannot write headers after they are sent to the client
+20240907	10:09:54	c5aa82f3-656f-4db7-ba9e-f317d426fba7	Error: Cannot write headers after they are sent to the client
+20240907	10:09:54	7d54ca26-4045-4271-bf3f-257114297352	Error: Cannot write headers after they are sent to the client
+20240907	10:09:54	1ac801c9-4663-45f0-ace6-5d53f44ba988	Error: Cannot write headers after they are sent to the client
+20240907	10:09:54	88b23028-6fbc-4cb6-bc0c-dcdc1315df42	Error: Cannot write headers after they are sent to the client
+20240907	10:09:54	acb23401-bd85-4fb2-a060-9b6791b1e2b8	Error: Cannot write headers after they are sent to the client
+20240907	10:09:54	ee5ee63a-2bb8-4c75-851c-a1bc118a6254	Error: Cannot write headers after they are sent to the client
+20240907	10:09:54	1b9027a9-68ab-45c0-a80b-e7f6db04b679	Error: Cannot write headers after they are sent to the client
+20240907	10:09:54	71a59f46-e022-44e9-9b53-8ea2ed7165d0	Error: Cannot write headers after they are sent to the client
+20240907	10:09:54	f0a50080-abd2-4713-9154-245c6b67f5e4	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\client\public\views\favicon.ico'
+20240907	10:09:54	bd825f5c-cb60-4902-ac6a-3514d029fccb	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\server\views\404.html'
+20240907	10:09:59	f2cf6b88-0508-4c79-a877-419173d1e6eb	Error: Cannot write headers after they are sent to the client
+20240907	10:09:59	a8b96126-a096-4891-8f69-7f668045bccc	Error: Cannot write headers after they are sent to the client
+20240907	10:09:59	66f79a45-5888-453c-b42b-819ac7d73b1b	Error: Cannot write headers after they are sent to the client
+20240907	10:09:59	affb445d-0904-4fdf-b708-c42a57d073aa	Error: Cannot write headers after they are sent to the client
+20240907	10:09:59	8a89a92f-e089-4d0b-a7a3-fbe9183d3290	Error: Cannot write headers after they are sent to the client
+20240907	10:09:59	b7e48822-0677-4776-bc98-41737eddd076	Error: Cannot write headers after they are sent to the client
+20240907	10:09:59	1b75d521-4467-44cb-9861-8c1f1057ad71	Error: Cannot write headers after they are sent to the client
+20240907	10:09:59	61c50712-b7a9-42c8-81f6-665e198e1ad2	Error: Cannot write headers after they are sent to the client
+20240907	10:09:59	ad84ecfe-b264-4d9f-8707-21f3548facd5	Error: Cannot write headers after they are sent to the client
+20240907	10:10:00	9090b6b7-539f-466e-8365-3edc5e6f4b62	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\client\public\views\favicon.ico'
+20240907	10:10:00	6e009f13-4c73-45e3-9e55-18082419b585	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\server\views\404.html'
+20240907	10:10:04	2f2d9eec-2594-464f-96df-540651d7ec01	Error: Cannot write headers after they are sent to the client
+20240907	10:10:04	21c28913-c19d-4701-a0d8-7e546debfee0	Error: Cannot write headers after they are sent to the client
+20240907	10:10:04	2cd382a9-ba87-44bc-b6ad-43474f23c260	Error: Cannot write headers after they are sent to the client
+20240907	10:10:04	8bba4880-ea95-442c-9420-312f0a63aec3	Error: Cannot write headers after they are sent to the client
+20240907	10:10:04	6cd26acb-c148-43bb-abc3-fd6008a7a05c	Error: Cannot write headers after they are sent to the client
+20240907	10:10:04	376658e2-7468-45e8-9656-bd23532cec8b	Error: Cannot write headers after they are sent to the client
+20240907	10:10:04	08c315bd-ce71-42f6-914d-e34f3a25ee3f	Error: Cannot write headers after they are sent to the client
+20240907	10:10:04	7222fdb9-93c0-47e1-9f38-6e52cee68161	Error: Cannot write headers after they are sent to the client
+20240907	10:10:04	8a872e4f-7384-4ece-b226-7e7908586b95	Error: Cannot write headers after they are sent to the client
+20240907	10:10:04	8eefd0c8-e731-4b7b-8313-60ce8eb539cb	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\client\public\views\favicon.ico'
+20240907	10:10:04	3acc0ab2-8a13-4db2-81ab-9d366b71ca87	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\server\views\404.html'
+20240907	10:10:45	b8b9d44e-0980-4e16-b0b1-078c066ffcec	Error: Cannot write headers after they are sent to the client
+20240907	10:10:45	3e22a438-89c5-4296-bdfa-7b180b557ffd	Error: Cannot write headers after they are sent to the client
+20240907	10:10:45	8c766684-eea6-4b06-9b71-a3a08f66537a	Error: Cannot write headers after they are sent to the client
+20240907	10:10:45	1351540f-8bef-4aa1-8970-433124706fe0	Error: Cannot write headers after they are sent to the client
+20240907	10:10:45	89b0015b-7e09-4c6d-8beb-b859b3539662	Error: Cannot write headers after they are sent to the client
+20240907	10:10:45	12c612a6-86a9-4954-a0c5-724c802cb459	Error: Cannot write headers after they are sent to the client
+20240907	10:10:45	4cd94489-c483-4f97-a877-a3ac0a7dbe4b	Error: Cannot write headers after they are sent to the client
+20240907	10:10:45	90a88795-ef6c-4029-b39a-74828735e842	Error: Cannot write headers after they are sent to the client
+20240907	10:10:45	48775b8f-7956-4379-97fd-e2f323c367a5	Error: Cannot write headers after they are sent to the client
+20240907	10:10:45	6c846550-a32c-4b4b-a524-98b1bbc16ac4	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\client\public\views\favicon.ico'
+20240907	10:10:45	4e490d24-85c6-4701-b017-5728a72cce8b	Error: ENOENT: no such file or directory, open 'D:\Carrer\ALX\Project\WallHub\server\views\404.html'
