@@ -32,12 +32,19 @@
       <SubType>Code</SubType>
     </Content>
     <Content Include="client\src\components\imgs\cover.jpg" />
+    <Content Include="client\src\components\imgs\Heart_Empty.jpg" />
+    <Content Include="client\src\components\imgs\Heart_Filled.jpg" />
+    <Content Include="client\src\components\imgs\login.jpg" />
     <Content Include="client\src\components\imgs\pic1.jpg" />
+    <Content Include="client\src\components\imgs\pic10.jpg" />
     <Content Include="client\src\components\imgs\pic2.jpg" />
     <Content Include="client\src\components\imgs\pic3.jpg" />
     <Content Include="client\src\components\imgs\pic4.jpg" />
     <Content Include="client\src\components\imgs\pic5.jpg" />
     <Content Include="client\src\components\imgs\pic6.jpg" />
+    <Content Include="client\src\components\imgs\pic7.jpg" />
+    <Content Include="client\src\components\imgs\pic8.jpg" />
+    <Content Include="client\src\components\imgs\pic9.jpg" />
     <Content Include="data\data.json">
       <SubType>Code</SubType>
     </Content>
