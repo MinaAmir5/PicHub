@@ -1,15 +1,27 @@
 const http = require('http');
+const express = require('express');
 const path = require('path');
+const app = express();
 const fs = require('fs');
 const fsPromises = require('fs').promises;
-
 const logEvents = require('../logEvents');
 const EventEmitter = require('events');
+
 class Emitter extends EventEmitter { };
 // initialize object 
 const myEmitter = new Emitter();
 myEmitter.on('log', (msg, fileName) => logEvents(msg, fileName));
 const PORT = process.env.PORT || 3500;
+
+app.use(express.static(path.join(__dirname, '../client/build')));
+
+app.get('*', (req, res) => {
+    res.sendFile(path.join(__dirname, '../client/public', 'index.html'));
+});
+
+app.get('*', (req, res) => {
+    res.sendFile(path.join(__dirname, '../client/public/css', 'style.css'));
+});
 
 const serveFile = async (filePath, contentType, response) => {
     try {
@@ -67,11 +79,11 @@ const server = http.createServer((req, res) => {
 
     let filePath =
         contentType === 'text/html' && req.url === '/'
-            ? path.join(__dirname, '..', 'client', 'public', 'views', 'index.html')
+            ? path.join(__dirname, '..', 'client', 'public', 'index.html')
             : contentType === 'text/html' && req.url.slice(-1) === '/'
-                ? path.join(__dirname, '..', 'client', 'public', 'views', req.url, 'index.html')
+                ? path.join(__dirname, '..', 'client', 'public', req.url, 'index.html')
                 : contentType === 'text/html'
-                    ? path.join(__dirname, '..', 'client', 'public', 'views', req.url)
+                    ? path.join(__dirname, '..', 'client', 'public', req.url)
                     : contentType === 'image/jpeg'
                         ? path.join(__dirname, '..', 'client', req.url)
                         : path.join(__dirname, '..', 'client', 'public', req.url);
@@ -95,8 +107,8 @@ const server = http.createServer((req, res) => {
                 res.end();
                 break;
             default:
-                serveFile(path.join(__dirname, 'views', '404.html'), 'text/html', res);
+                serveFile(path.join(__dirname, '404.html'), 'text/html', res);
         }
     }
 });
-server.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+app.listen(PORT, () => console.log(`Server running on port ${PORT}`));

@@ -31,20 +31,52 @@
     <Content Include=".gitignore">
       <SubType>Code</SubType>
     </Content>
-    <Content Include="client\src\components\imgs\cover.jpg" />
-    <Content Include="client\src\components\imgs\Heart_Empty.jpg" />
-    <Content Include="client\src\components\imgs\Heart_Filled.jpg" />
-    <Content Include="client\src\components\imgs\login.jpg" />
-    <Content Include="client\src\components\imgs\pic1.jpg" />
-    <Content Include="client\src\components\imgs\pic10.jpg" />
-    <Content Include="client\src\components\imgs\pic2.jpg" />
-    <Content Include="client\src\components\imgs\pic3.jpg" />
-    <Content Include="client\src\components\imgs\pic4.jpg" />
-    <Content Include="client\src\components\imgs\pic5.jpg" />
-    <Content Include="client\src\components\imgs\pic6.jpg" />
-    <Content Include="client\src\components\imgs\pic7.jpg" />
-    <Content Include="client\src\components\imgs\pic8.jpg" />
-    <Content Include="client\src\components\imgs\pic9.jpg" />
+    <Content Include="client\build\asset-manifest.json" />
+    <Content Include="client\build\imgs\cover.jpg" />
+    <Content Include="client\build\imgs\Heart_Empty.jpg" />
+    <Content Include="client\build\imgs\Heart_Filled.jpg" />
+    <Content Include="client\build\imgs\login.jpg" />
+    <Content Include="client\build\imgs\pic1.jpg" />
+    <Content Include="client\build\imgs\pic10.jpg" />
+    <Content Include="client\build\imgs\pic2.jpg" />
+    <Content Include="client\build\imgs\pic3.jpg" />
+    <Content Include="client\build\imgs\pic4.jpg" />
+    <Content Include="client\build\imgs\pic5.jpg" />
+    <Content Include="client\build\imgs\pic6.jpg" />
+    <Content Include="client\build\imgs\pic7.jpg" />
+    <Content Include="client\build\imgs\pic8.jpg" />
+    <Content Include="client\build\imgs\pic9.jpg" />
+    <Content Include="client\build\index.html" />
+    <Content Include="client\build\static\css\main.2bc92035.css" />
+    <Content Include="client\build\static\css\main.2bc92035.css.map" />
+    <Content Include="client\build\static\js\main.42cb0cb5.js" />
+    <Content Include="client\build\static\js\main.42cb0cb5.js.LICENSE.txt" />
+    <Content Include="client\build\static\js\main.42cb0cb5.js.map" />
+    <Content Include="client\build\static\media\cover.9185d406e4f23ab7605a.jpg" />
+    <Content Include="client\build\static\media\login.072b265929cc42f84587.jpg" />
+    <Content Include="client\package.json">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="client\src\app.js">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="client\public\imgs\cover.jpg" />
+    <Content Include="client\public\imgs\Heart_Empty.jpg" />
+    <Content Include="client\public\imgs\Heart_Filled.jpg" />
+    <Content Include="client\public\imgs\login.jpg" />
+    <Content Include="client\public\imgs\pic1.jpg" />
+    <Content Include="client\public\imgs\pic10.jpg" />
+    <Content Include="client\public\imgs\pic2.jpg" />
+    <Content Include="client\public\imgs\pic3.jpg" />
+    <Content Include="client\public\imgs\pic4.jpg" />
+    <Content Include="client\public\imgs\pic5.jpg" />
+    <Content Include="client\public\imgs\pic6.jpg" />
+    <Content Include="client\public\imgs\pic7.jpg" />
+    <Content Include="client\public\imgs\pic8.jpg" />
+    <Content Include="client\public\imgs\pic9.jpg" />
+    <Content Include="client\src\index.js">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="data\data.json">
       <SubType>Code</SubType>
     </Content>
@@ -54,19 +86,27 @@
     <Content Include="logEvents.js">
       <SubType>Code</SubType>
     </Content>
-    <Content Include="client\public\css\style.css">
+    <Content Include="client\src\index.css">
       <SubType>Code</SubType>
     </Content>
-    <Content Include="client\public\views\index.html">
+    <Content Include="client\public\index.html">
       <SubType>Code</SubType>
     </Content>
+    <Content Include="package.json" />
     <Content Include="server\server.js" />
-    <Content Include="server\package.json" />
     <Content Include="README.md" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="client\" />
-    <Folder Include="client\src\components\imgs\" />
+    <Folder Include="client\build\" />
+    <Folder Include="client\build\css\" />
+    <Folder Include="client\build\imgs\" />
+    <Folder Include="client\build\static\" />
+    <Folder Include="client\build\static\css\" />
+    <Folder Include="client\build\static\js\" />
+    <Folder Include="client\build\static\media\" />
+    <Folder Include="client\build\views\" />
+    <Folder Include="client\public\imgs\" />
     <Folder Include="client\public\css\" />
     <Folder Include="client\src\components\" />
     <Folder Include="client\public\views\" />

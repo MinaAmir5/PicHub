@@ -1,0 +1,23 @@
+{
+  "name": "05tut",
+  "version": "1.0.0",
+  "description": "Node.js Web Server tutorial",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "server": "nodemon server/server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Dave Gray",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^9.0.0",
+    "date-fns": "^2.23.0",
+    "express": "^4.20.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
