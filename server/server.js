@@ -11,7 +11,7 @@ class Emitter extends EventEmitter { };
 // initialize object 
 const myEmitter = new Emitter();
 myEmitter.on('log', (msg, fileName) => logEvents(msg, fileName));
-const PORT = process.env.PORT || 3500;
+const PORT = process.env.PORT || 4000;
 
 app.use(express.static(path.join(__dirname, '../client/build')));
 

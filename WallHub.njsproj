@@ -77,12 +77,6 @@
     <Content Include="client\src\index.js">
       <SubType>Code</SubType>
     </Content>
-    <Content Include="data\data.json">
-      <SubType>Code</SubType>
-    </Content>
-    <Content Include="data\data.txt">
-      <SubType>Code</SubType>
-    </Content>
     <Content Include="logEvents.js">
       <SubType>Code</SubType>
     </Content>
@@ -107,12 +101,8 @@
     <Folder Include="client\build\static\media\" />
     <Folder Include="client\build\views\" />
     <Folder Include="client\public\imgs\" />
-    <Folder Include="client\public\css\" />
-    <Folder Include="client\src\components\" />
-    <Folder Include="client\public\views\" />
     <Folder Include="client\src\" />
     <Folder Include="client\public\" />
-    <Folder Include="data\" />
     <Folder Include="server\" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsToolsV2.targets" />
