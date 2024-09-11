@@ -1,6 +1,12 @@
 import React from 'react';
+const _ = require("lodash");
 
 function App() {
+    let images = [];
+    images = Array.from({ length: 14 }, (_, index) => index + 1);
+    let images2 = _.range(15, 29);
+    let images3 = _.range(29, 41);
+
     return (
         <div className="App">
             <header>
@@ -17,27 +23,64 @@ function App() {
             <main>
                 <div class="pics">
                     <div class="picsCol1">
-                        <img src="/imgs/pic1.jpg" id="pic1"/>
-                        <div class="bar">
-                            <p id="num">15</p>
-                            <img src="/imgs/Heart_Empty.jpg" id="heart_empty" class="shit"/>
-                            <p id="view">Shit</p>
-                            <p id="comment">Comment</p>
-                            <p id="report">Report</p>
-                        </div>
-                        <img src="/imgs/pic2.jpg" id="pic2"/>
-                        <img src="/imgs/pic7.jpg" id="pic7"/>
-                        <img src="/imgs/pic10.jpg" id="pic10"/>
+                        {images.map((num) => (
+                            <React.Fragment key={num}>
+                                <div class="pic">
+                            <img
+                                key={num}
+                                src={`${process.env.PUBLIC_URL}/imgs/pic${num}.jpg`}
+                                alt={`pic${num}`}
+                                />
+                                <div class="bar">
+                                    <img src="/imgs/Heart_Empty.jpg" id="heart_empty" class="shit" />
+                                    <button id="num">15</button>
+                                    <button id="view">View</button>
+                                    <button id="comment">Comment</button>
+                                    <button id="report">Report</button>
+                                </div>
+                            </div>
+                            </React.Fragment>
+                        ))}
                     </div>
                     <div class="picsCol2">
-                        <img src="/imgs/pic3.jpg" id="pic3"/>
-                        <img src="/imgs/pic4.jpg" id="pic4"/>
-                        <img src="/imgs/pic8.jpg" id="pic8"/>
+                        {images2.map((num) => (
+                            <React.Fragment key={num}>
+                                <div class="pic">
+                                <img
+                                    key={num}
+                                    src={`${process.env.PUBLIC_URL}/imgs/pic${num}.jpg`}
+                                    alt={`pic${num}`}
+                                />
+                                <div class="bar">
+                                    <img src="/imgs/Heart_Empty.jpg" id="heart_empty" class="shit" />
+                                    <button id="num">15</button>
+                                    <button id="view">View</button>
+                                    <button id="comment">Comment</button>
+                                    <button id="report">Report</button>
+                                    </div>
+                                </div>
+                            </React.Fragment>
+                        ))}
                     </div>
                     <div class="picsCol3">
-                        <img src="/imgs/pic5.jpg" id="pic5"/>
-                        <img src="/imgs/pic6.jpg" id="pic6"/>
-                        <img src="/imgs/pic9.jpg" id="pic9"/>
+                        {images3.map((num) => (
+                            <React.Fragment key={num}>
+                                <div class="pic">
+                                <img
+                                    key={num}
+                                    src={`${process.env.PUBLIC_URL}/imgs/pic${num}.jpg`}
+                                    alt={`pic${num}`}
+                                />
+                                <div class="bar">
+                                    <img src="/imgs/Heart_Empty.jpg" id="heart_empty" class="shit" />
+                                    <button id="num">15</button>
+                                    <button id="view">View</button>
+                                    <button id="comment">Comment</button>
+                                    <button id="report">Report</button>
+                                </div>
+                                </div>
+                            </React.Fragment>
+                        ))}
                     </div>
                 </div>
             </main>
