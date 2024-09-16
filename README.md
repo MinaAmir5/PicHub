@@ -1,3 +1,3 @@
-# WallHub
+# PicHub
 
 
