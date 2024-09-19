@@ -7,7 +7,7 @@ function Home() {
     const navigate = useNavigate();
 
     const handleRedirect = () => {
-        navigate('/About');
+        navigate('/Sign');
     };
 
     let images = _.range(1, 15);
@@ -41,7 +41,7 @@ function Home() {
                                     <div class="bar">
                                         <img src="/Heart_Empty.jpg" id="heart_empty" class="shit" alt="Hear Empty" />
                                         <button id="num">15</button>
-                                        <button id="view">shit</button>
+                                        <button id="view">View</button>
                                         <button id="comment">Comment</button>
                                         <button id="report">Report</button>
                                     </div>

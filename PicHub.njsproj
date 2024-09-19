@@ -11,7 +11,8 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>914cfaa5-3ca4-48e9-9b21-82422bb2dfa3</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>server.js</StartupFile>
+    <StartupFile>
+    </StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -28,9 +29,99 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
-    <Content Include="server.js" />
+    <Content Include="backend\api\index.js">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="backend\api\models\User.js">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="backend\api\package.json">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="backend\api\routes\auth.js">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="frontend\pichub\package.json">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="frontend\pichub\public\cover.jpg" />
+    <Content Include="frontend\pichub\public\Heart_Empty.jpg" />
+    <Content Include="frontend\pichub\public\Heart_Filled.jpg" />
+    <Content Include="frontend\pichub\public\index.html">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="frontend\pichub\public\login.jpg" />
+    <Content Include="frontend\pichub\public\assets\pic1.jpg" />
+    <Content Include="frontend\pichub\public\assets\pic10.jpg" />
+    <Content Include="frontend\pichub\public\assets\pic11.jpg" />
+    <Content Include="frontend\pichub\public\assets\pic12.jpg" />
+    <Content Include="frontend\pichub\public\assets\pic13.jpg" />
+    <Content Include="frontend\pichub\public\assets\pic14.jpg" />
+    <Content Include="frontend\pichub\public\assets\pic15.jpg" />
+    <Content Include="frontend\pichub\public\assets\pic16.jpg" />
+    <Content Include="frontend\pichub\public\assets\pic17.jpg" />
+    <Content Include="frontend\pichub\public\assets\pic18.jpg" />
+    <Content Include="frontend\pichub\public\assets\pic19.jpg" />
+    <Content Include="frontend\pichub\public\assets\pic2.jpg" />
+    <Content Include="frontend\pichub\public\assets\pic20.jpg" />
+    <Content Include="frontend\pichub\public\assets\pic21.jpg" />
+    <Content Include="frontend\pichub\public\assets\pic22.jpg" />
+    <Content Include="frontend\pichub\public\assets\pic23.jpg" />
+    <Content Include="frontend\pichub\public\assets\pic24.jpg" />
+    <Content Include="frontend\pichub\public\assets\pic25.jpg" />
+    <Content Include="frontend\pichub\public\assets\pic26.jpg" />
+    <Content Include="frontend\pichub\public\assets\pic27.jpg" />
+    <Content Include="frontend\pichub\public\assets\pic28.jpg" />
+    <Content Include="frontend\pichub\public\assets\pic29.jpg" />
+    <Content Include="frontend\pichub\public\assets\pic3.jpg" />
+    <Content Include="frontend\pichub\public\assets\pic30.jpg" />
+    <Content Include="frontend\pichub\public\assets\pic31.jpg" />
+    <Content Include="frontend\pichub\public\assets\pic32.jpg" />
+    <Content Include="frontend\pichub\public\assets\pic33.jpg" />
+    <Content Include="frontend\pichub\public\assets\pic34.jpg" />
+    <Content Include="frontend\pichub\public\assets\pic35.jpg" />
+    <Content Include="frontend\pichub\public\assets\pic36.jpg" />
+    <Content Include="frontend\pichub\public\assets\pic37.jpg" />
+    <Content Include="frontend\pichub\public\assets\pic38.jpg" />
+    <Content Include="frontend\pichub\public\assets\pic39.jpg" />
+    <Content Include="frontend\pichub\public\assets\pic4.jpg" />
+    <Content Include="frontend\pichub\public\assets\pic40.jpg" />
+    <Content Include="frontend\pichub\public\assets\pic5.jpg" />
+    <Content Include="frontend\pichub\public\assets\pic6.jpg" />
+    <Content Include="frontend\pichub\public\assets\pic7.jpg" />
+    <Content Include="frontend\pichub\public\assets\pic8.jpg" />
+    <Content Include="frontend\pichub\public\assets\pic9.jpg" />
+    <Content Include="frontend\pichub\src\components\SignIn\About.js">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="frontend\pichub\src\components\Home\Home.js">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="frontend\pichub\src\index.css">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="frontend\pichub\src\index.js">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="frontend\pichub\src\App.js">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="package.json" />
     <Content Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="backend\api\" />
+    <Folder Include="backend\api\models\" />
+    <Folder Include="backend\api\routes\" />
+    <Folder Include="frontend\" />
+    <Folder Include="backend\" />
+    <Folder Include="frontend\pichub\" />
+    <Folder Include="frontend\pichub\src\" />
+    <Folder Include="frontend\pichub\public\" />
+    <Folder Include="frontend\pichub\src\components\" />
+    <Folder Include="frontend\pichub\src\components\Home\" />
+    <Folder Include="frontend\pichub\src\components\SignIn\" />
+    <Folder Include="frontend\pichub\public\assets\" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsToolsV2.targets" />
   <ProjectExtensions>
