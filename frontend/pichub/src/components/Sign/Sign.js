@@ -11,7 +11,8 @@ function Sign() {
     return (
         <div className="sign">
             <header>
-                    <div class="content">
+                <div class="content">
+                        <img src="/logo.png" id="logo" />
                         <h2><span id="Pic">Pic</span><span id="Hub">Hub</span></h2><br />
                     </div>
             </header>
@@ -33,17 +34,17 @@ function Sign() {
                 )}
                 {activeButton === 'button2' && (
                     <form className="registerForm">
-                        <label id="firstName" for="registerFirstName">First name</label>
+                        <label id="firstName" for="registerFirstName">First name :</label>
                         <input type="text" id="registerFirstName" /><br />
-                        <label id="lastName" for="registerLastName">Last name</label>
+                        <label id="lastName" for="registerLastName">Last name :</label>
                         <input type="text" id="registerLastName" /><br />
-                        <label id="labelEmail2" for="registerEmail">Email</label>
+                        <label id="labelEmail2" for="registerEmail">Email :</label>
                         <input type="text" id="registerEmail" /><br />
-                        <label id="labelConfirmEmail" for="registerConfirmEmail">Confirm email</label>
+                        <label id="labelConfirmEmail" for="registerConfirmEmail">Confirm email :</label>
                         <input type="text" id="registerConfirmEmail" /><br />
-                        <label id="labelPassword2" for="registerPassword">Password</label>
+                        <label id="labelPassword2" for="registerPassword">Password :</label>
                         <input type="password" id="registerPassword" />
-                        <label id="labelConfirmPassword" for="registerConfirmPassword">Confirm password</label>
+                        <label id="labelConfirmPassword" for="registerConfirmPassword">Confirm password :</label>
                         <input type="password" id="registerConfirmPassword" />
                         <input type="submit" value="Sign up" id="registerButton" />
                     </form>

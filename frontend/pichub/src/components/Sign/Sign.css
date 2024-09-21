@@ -5,7 +5,7 @@
 }
 
 .background {
-    height: 20vh; /* Full height */
+    height: 50vh; /* Full height */
     background-image: url(../../../public/cover.jpg); /* Add your image path here */
     background-size: cover; /* Make the image cover the entire container */
     background-position: center; /* Center the background image */
@@ -22,6 +22,15 @@
     border-radius: 10px; /* Round the corners */
 }
 
+#logo {
+    position: relative;
+    left: 40vw;
+    top: -1vh;
+    height: 5%;
+    width: 5%;
+    float: left;
+}
+
 #button1, #button2{
     height: 8vh;
     width: 40vw;
@@ -32,6 +41,8 @@
     color: #a7a7a7;
     font-size: 70%;
     border-top-left-radius: 20px;
+    border: 1px;
+    border-style: solid;
 }
 
 #button2 {
@@ -42,26 +53,28 @@
 }
 
 .active {
-    border-bottom: none;
-    color: #ffffff !important;
+    color: #00ffff !important;
     font-weight: bold;
 }
 
 
 .signInForm {
     position: absolute;
-    top: 32.5vh;
-    left: 23.25vw;
+    top: 28vh;
+    left: 10vw;
     padding: 25vh;
     background-color: #000000;
     color: #ffffff;
     border-radius: 20px;
     display: block;
+    width: 80vw;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
 }
 
 .registerForm {
     position: absolute;
-    top: 27.5vh;
+    top: 28vh;
     left: 10vw;
     width: 80vw;
     height: 63.5vh;
@@ -179,13 +192,13 @@
 #labelEmail {
     position: relative;
     top: -15vh;
-    left: -10vw;
+    left: 10vw;
 }
 
 #labelPassword {
     position: relative;
     top: -5vh;
-    left: -10vw;
+    left: 10vw;
 }
 
 #signInEmail, #signInPassword {
@@ -194,12 +207,12 @@
     height: 6vh;
     width: 20vw;
     border-radius: 10px;
-    left: 4vw;
+    left: 26vw;
 }
 
 #signInPassword {
     top: -6vh;
-    left: 0.7vw;
+    left: 22.5vw;
 }
 
 #singInButton {
@@ -207,7 +220,7 @@
     top: 45vh;
     height: 5vh;
     width: 15vw;
-    left: 19vw;
+    left: 32.5vw;
     border-radius: 30px;
     background-color: #00ffff;
     font-weight: bold;
