@@ -1,11 +1,57 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
+import axios from "axios";
+
+const baseUrl = "http://ec2-13-60-85-197.eu-north-1.compute.amazonaws.com:3000";
 
 function Sign() {
 
+    const navigate = useNavigate();
     const [activeButton, setActiveButton] = useState(null);
 
     const handleButtonClick = (buttonId) => {
         setActiveButton(buttonId);
+    };
+
+    const [inputs, setInputs] = useState({
+        username: "",
+        password: "",
+        email: "",
+        repeatPassword: "",
+    });
+
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+        if (inputs.password === inputs.repeatPassword) {
+            const data = await axios.post(`${baseUrl}/sign`, {
+                username: inputs.username,
+                email: inputs.email,
+                password: inputs.password,
+            });
+
+            const success = data.data.success;
+            console.log("DATA: ", data.data.success);
+
+            success ? navigate("/", { replace: true }) : alert("Try again");
+        } else {
+            alert("password does not match");
+            setInputs({
+                username: inputs.username,
+                email: inputs.email,
+                password: "",
+                rePassword: "",
+            });
+        }
+    }
+
+    const handleInputChange = (event) => {
+        event.persist();
+        const { name, value } = event.target;
+
+        setInputs((prevInputs) => ({
+            ...prevInputs,
+            [name]: value,
+        }));
     };
 
     return (
@@ -33,19 +79,19 @@ function Sign() {
                     </form>
                 )}
                 {activeButton === 'button2' && (
-                    <form className="registerForm">
+                    <form onSubmit={handleSubmit} className="registerForm">
                         <label id="firstName" for="registerFirstName">First name :</label>
-                        <input type="text" id="registerFirstName" /><br />
+                        <input id="registerFirstName" type="text" name="username" onChange={handleInputChange} value={inputs.username} required /><br />
                         <label id="lastName" for="registerLastName">Last name :</label>
                         <input type="text" id="registerLastName" /><br />
                         <label id="labelEmail2" for="registerEmail">Email :</label>
-                        <input type="text" id="registerEmail" /><br />
+                        <input id="registerEmail" type="email" name="email" onChange={handleInputChange} value={inputs.email} required /><br />
                         <label id="labelConfirmEmail" for="registerConfirmEmail">Confirm email :</label>
                         <input type="text" id="registerConfirmEmail" /><br />
                         <label id="labelPassword2" for="registerPassword">Password :</label>
-                        <input type="password" id="registerPassword" />
+                        <input id="registerPassword" type="password" name="password" onChange={handleInputChange} value={inputs.password} required />
                         <label id="labelConfirmPassword" for="registerConfirmPassword">Confirm password :</label>
-                        <input type="password" id="registerConfirmPassword" />
+                        <input id="registerConfirmPassword" type="password" name="repeatPassword" onChange={handleInputChange} value={inputs.repeatPassword} required />
                         <input type="submit" value="Sign up" id="registerButton" />
                     </form>
                 )}

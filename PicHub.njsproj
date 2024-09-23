@@ -29,6 +29,7 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="backend\api\.env" />
     <Content Include="backend\api\index.js">
       <SubType>Code</SubType>
     </Content>
@@ -91,12 +92,14 @@
     <Content Include="frontend\pichub\public\assets\pic7.jpg" />
     <Content Include="frontend\pichub\public\assets\pic8.jpg" />
     <Content Include="frontend\pichub\public\assets\pic9.jpg" />
-    <Content Include="frontend\pichub\src\components\SignIn\About.js">
-      <SubType>Code</SubType>
-    </Content>
+    <Content Include="frontend\pichub\public\logo.png" />
+    <Content Include="frontend\pichub\public\logo1.ico" />
+    <Content Include="frontend\pichub\src\commons\auth.js" />
     <Content Include="frontend\pichub\src\components\Home\Home.js">
       <SubType>Code</SubType>
     </Content>
+    <Content Include="frontend\pichub\src\components\Sign\Sign.css" />
+    <Content Include="frontend\pichub\src\components\Sign\Sign.js" />
     <Content Include="frontend\pichub\src\index.css">
       <SubType>Code</SubType>
     </Content>
@@ -118,10 +121,11 @@
     <Folder Include="frontend\pichub\" />
     <Folder Include="frontend\pichub\src\" />
     <Folder Include="frontend\pichub\public\" />
+    <Folder Include="frontend\pichub\src\commons\" />
     <Folder Include="frontend\pichub\src\components\" />
     <Folder Include="frontend\pichub\src\components\Home\" />
-    <Folder Include="frontend\pichub\src\components\SignIn\" />
     <Folder Include="frontend\pichub\public\assets\" />
+    <Folder Include="frontend\pichub\src\components\Sign\" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsToolsV2.targets" />
   <ProjectExtensions>

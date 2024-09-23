@@ -7,7 +7,7 @@ function Home() {
     const navigate = useNavigate();
 
     const handleRedirect = () => {
-        navigate('/Sign');
+        navigate('/sign');
     };
 
     let images = _.range(1, 15);
