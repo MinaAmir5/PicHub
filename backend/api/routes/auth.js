@@ -5,8 +5,6 @@ const jwt = require('jsonwebtoken')
 
 //Register User.
 router.post("/sign", async (req, res) => {
-    alert("sucessss");
-
     const salt = await bcrypt.genSalt(10);
     const newUser = new User({
         username: req.body.username,
@@ -15,7 +13,7 @@ router.post("/sign", async (req, res) => {
     });
 
     try {
-        const user = await newUser.save();
+        const user = await newUser.insert();
         res.status(201).json(user);
     } catch (err) {
         res.status(500).json(err);

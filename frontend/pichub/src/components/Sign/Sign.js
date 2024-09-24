@@ -2,11 +2,13 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import axios from "axios";
 
-const baseUrl = "http://ec2-13-60-85-197.eu-north-1.compute.amazonaws.com:3000";
-
+const baseUrl = "http://localhost:8800/api";
 function Sign() {
 
     const navigate = useNavigate();
+    const handleRedirect = () => {
+        navigate('/');
+    };
     const [activeButton, setActiveButton] = useState(null);
 
     const handleButtonClick = (buttonId) => {
@@ -22,25 +24,27 @@ function Sign() {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-        if (inputs.password === inputs.repeatPassword) {
-            const data = await axios.post(`${baseUrl}/sign`, {
-                username: inputs.username,
-                email: inputs.email,
-                password: inputs.password,
-            });
+        try {
+            if (inputs.password === inputs.repeatPassword) {
+                const data = await axios.post(`${baseUrl}/sign`, {
+                    username: inputs.username,
+                    email: inputs.email,
+                    password: inputs.password,
+                });
+                alert("User created");
 
-            const success = data.data.success;
-            console.log("DATA: ", data.data.success);
-
-            success ? navigate("/", { replace: true }) : alert("Try again");
-        } else {
-            alert("password does not match");
-            setInputs({
-                username: inputs.username,
-                email: inputs.email,
-                password: "",
-                rePassword: "",
-            });
+                handleRedirect();
+            } else {
+                alert("password does not match");
+                setInputs({
+                    username: inputs.username,
+                    email: inputs.email,
+                    password: "",
+                    rePassword: "",
+                });
+            }
+        } catch (err) {
+            console.error("Network error:", err); // Add this to see the exact error in the console
         }
     }
 
