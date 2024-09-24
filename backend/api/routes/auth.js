@@ -13,7 +13,7 @@ router.post("/sign", async (req, res) => {
     });
 
     try {
-        const user = await newUser.insert();
+        const user = await newUser.save();
         res.status(201).json(user);
     } catch (err) {
         res.status(500).json(err);

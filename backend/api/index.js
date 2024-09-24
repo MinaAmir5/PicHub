@@ -7,7 +7,7 @@ const authRoute = require("./routes/auth");
 
 const port = 8800;
 
-mongoose.connect("mongodb+srv://minaamir55555:Marmena531.@pichub.2n3om.mongodb.net/?retryWrites=true&w=majority&appName=pichub")
+mongoose.connect("mongodb+srv://minaamir55555:Marmena531.@pichub.2n3om.mongodb.net/pichub?retryWrites=true&w=majority&appName=pichub")
     .then(() => console.log("DB Connection successfully!"))
     .catch((err) => console.log(err));
 
