@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import axios from "axios";
+import { useAuth } from "../../commons/auth";
 
-const baseUrl = "http://localhost:8800/api";
+const baseUrl = "http://13.60.85.197:8800/api";
+
 function Sign() {
 
     const navigate = useNavigate();
@@ -30,6 +32,7 @@ function Sign() {
                     username: inputs.username,
                     email: inputs.email,
                     password: inputs.password,
+                    request: "signUp",
                 });
                 alert("User created");
 
@@ -58,6 +61,51 @@ function Sign() {
         }));
     };
 
+    const handleInputChange2 = (event) => {
+        event.persist();
+        const { name, value } = event.target;
+
+        setInputs2((prevInputs2) => ({
+            ...prevInputs2,
+            [name]: value,
+        }));
+    };
+
+    const auth = useAuth();
+    const [inputs2, setInputs2] = useState({
+        password2: "",
+        email2: "",
+    });
+
+    const handleSubmit2 = async (event) => {
+        if (event) {
+            event.preventDefault();
+            try {
+                const data2 = await axios.post(`${baseUrl}/sign`, {
+                    password: inputs2.password2,
+                    email: inputs2.email2,
+                    request: "signIn",
+                });
+                const { username, email, accessToken } = data2.data;
+
+                if (accessToken) {
+                    auth.login(username);
+                    navigate("/", { replace: true });
+                    alert(`welcome ${username}`);
+                } else {
+                    alert("Login failed. Invalid credentials.");
+                }
+            } catch (error) {
+                console.log("Error during login:", error);
+                alert("Login failed. Invalid credentials.");
+            }
+            setInputs2({
+                password2: "",
+                email2: "",
+            });
+        }
+    };
+
     return (
         <div className="sign">
             <header>
@@ -74,11 +122,11 @@ function Sign() {
                         onClick={() => handleButtonClick('button2')}>Register</button>
                 </div>
                 {activeButton === 'button1' && (
-                    <form className="signInForm">
+                    <form className="signInForm" onSubmit={handleSubmit2}>
                         <label id="labelEmail" for="signInEmail">Email</label>
-                        <input type="text" id="signInEmail" /><br />
+                        <input id="signInEmail" type="email" name="email2" onChange={handleInputChange2} value={inputs2.email2} required /><br />
                         <label id="labelPassword" for="signInPassword">Password</label>
-                        <input type="password" id="signInPassword" />
+                        <input type="password" name="password2" id="signInPassword" onChange={handleInputChange2} value={inputs2.password2} required/>
                         <input type="submit" value="Sign In" id="singInButton" />
                     </form>
                 )}
