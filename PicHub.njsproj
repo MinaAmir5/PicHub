@@ -33,6 +33,9 @@
     <Content Include="backend\api\index.js">
       <SubType>Code</SubType>
     </Content>
+    <Content Include="backend\api\models\Pic.js">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="backend\api\models\User.js">
       <SubType>Code</SubType>
     </Content>
@@ -42,10 +45,15 @@
     <Content Include="backend\api\routes\auth.js">
       <SubType>Code</SubType>
     </Content>
+    <Content Include="backend\api\routes\search.js">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="frontend\pichub\package.json">
       <SubType>Code</SubType>
     </Content>
     <Content Include="frontend\pichub\public\cover.jpg" />
+    <Content Include="frontend\pichub\public\heartEmpty.png" />
+    <Content Include="frontend\pichub\public\heartFilled.png" />
     <Content Include="frontend\pichub\public\Heart_Empty.jpg" />
     <Content Include="frontend\pichub\public\Heart_Filled.jpg" />
     <Content Include="frontend\pichub\public\index.html">
@@ -95,11 +103,17 @@
     <Content Include="frontend\pichub\public\logo.png" />
     <Content Include="frontend\pichub\public\logo1.ico" />
     <Content Include="frontend\pichub\src\commons\auth.js" />
+    <Content Include="frontend\pichub\src\components\Account\Account.js">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="frontend\pichub\src\components\Home\Home.js">
       <SubType>Code</SubType>
     </Content>
     <Content Include="frontend\pichub\src\components\Sign\Sign.css" />
     <Content Include="frontend\pichub\src\components\Sign\Sign.js" />
+    <Content Include="frontend\pichub\src\components\View\view.js">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="frontend\pichub\src\index.css">
       <SubType>Code</SubType>
     </Content>
@@ -125,6 +139,8 @@
     <Folder Include="frontend\pichub\src\components\" />
     <Folder Include="frontend\pichub\src\components\Home\" />
     <Folder Include="frontend\pichub\public\assets\" />
+    <Folder Include="frontend\pichub\src\components\Account\" />
+    <Folder Include="frontend\pichub\src\components\View\" />
     <Folder Include="frontend\pichub\src\components\Sign\" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsToolsV2.targets" />

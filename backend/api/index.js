@@ -4,6 +4,7 @@ const cors = require('cors');
 const dotenv = require("dotenv");
 const mongoose = require("mongoose");
 const authRoute = require("./routes/auth");
+const searchRoute = require("./routes/search");
 
 const port = 8800;
 
@@ -17,6 +18,9 @@ app.use(express.urlencoded({ extended: true }))
 
 app.use("/api/auth", authRoute);
 app.use("/api", authRoute);
+app.use("/api/search", searchRoute);
+app.use("/api", searchRoute);
+
 
 app.listen(port, () => {
     console.log(`Server is running on port: ${port}`);

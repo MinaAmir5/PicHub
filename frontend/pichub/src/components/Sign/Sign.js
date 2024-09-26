@@ -3,9 +3,11 @@ import { useNavigate } from 'react-router-dom';
 import axios from "axios";
 import { useAuth } from "../../commons/auth";
 
-const baseUrl = "http://13.60.85.197:8800/api";
+const baseUrl = "http://localhost:8800/api";
 
 function Sign() {
+
+    const auth = useAuth();
 
     const navigate = useNavigate();
     const handleRedirect = () => {
@@ -71,7 +73,7 @@ function Sign() {
         }));
     };
 
-    const auth = useAuth();
+    
     const [inputs2, setInputs2] = useState({
         password2: "",
         email2: "",
@@ -87,8 +89,8 @@ function Sign() {
                     request: "signIn",
                 });
                 const { username, email, accessToken } = data2.data;
-
                 if (accessToken) {
+
                     auth.login(username);
                     navigate("/", { replace: true });
                     alert(`welcome ${username}`);
