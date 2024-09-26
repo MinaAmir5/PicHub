@@ -99,7 +99,11 @@ function Home() {
     };
 
     const handleRedirect = () => {
-        navigate('/sign');
+        if (user) {
+            navigate('/account');  // Redirect to the uploads page
+        } else {
+            navigate('/sign');  // Redirect to sign-in page if not logged in
+        }
     };
 
     const handleView = (num) => {

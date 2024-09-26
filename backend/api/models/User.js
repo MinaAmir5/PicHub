@@ -6,7 +6,8 @@ const UserSchema = new mongoose.Schema(
         username: { type: String, required: true, unique: true },
         password: { type: String, required: true, unique: true },
         isAdmin: { type: String, default: false },
-        likes: { type: String},
+        likes: { type: String },
+        uploads: { type: String, default: ""}
     }
 );
 

@@ -75,5 +75,30 @@ router.get('/get-likes/:num', async (req, res) => {
     }
 });
 
+router.get('/get-uploads/:username', async (req, res) => {
+    try {
+        const user = await User.findOne({ username: req.params.username });
+        if (user) {
+            res.status(200).json(user.uploads);  // Send the "uploads" field
+        } else {
+            res.status(404).json("User not found");
+        }
+    } catch (error) {
+        res.status(500).json("Error fetching uploads");
+    }
+});
+
+router.get('/getUserlikes/:username', async (req, res) => {
+    try {
+        const user = await User.findOne({ username: req.params.username });
+        if (user) {
+            res.status(200).json(user.likes);  // Send the "likes" field
+        } else {
+            res.status(404).json("User not found");
+        }
+    } catch (error) {
+        res.status(500).json("Error fetching likes");
+    }
+});
 
 module.exports = router;

@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import "./components/Sign/Sign.css";
+import "./components/Account/Account.css";
 import App from "./App";
 import { BrowserRouter } from "react-router-dom";
 

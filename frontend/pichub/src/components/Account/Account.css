@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content {
+    text-align: center; /* Center textboxes */
+    padding: 20px; /* Add padding */
+    border-radius: 10px; /* Round the corners */
+}
+
+#logo {
+    position: relative;
+    left: 40vw;
+    top: -1vh;
+    height: 5%;
+    width: 5%;
+    float: left;
+}
+
+#logOut {
+    position: relative;
+    left: 77vw;
+    top: 1vh;
+    height: 3%;
+    width: 3%;
+    float: left;
+}
+
+.profileBar {
+    display: flex;
+    justify-content: center; /* Center the buttons horizontally */
+    align-items: center;
+    background-color: #808080; /* Light gray background */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    border-bottom: 1px solid #0056b3; /* Border for definition */
+}
+
+.profileBar button {
+    background-color: #808080;  /* Light blue color for better contrast in dark mode */
+    color: white;
+    border: none;
+    padding: 10px 20px; /* Button padding */
+    font-size: 16px; /* Font size */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+    flex: 1; /* Make buttons take up equal width */
+  text-align: center; /* Center text */
+  width: 100%; /* Full width of the container */
+}
+
+.profileBar button:hover {
+  background-color: #00ffff;  /* Darker blue on hover */
+}
+
+.profileBar button.active {
+  background-color: #000000;  /* Soft green for active button */
+}
+
+@media (max-width: 768px) {
+  .bar {
+    flex-direction: column;  /* Stack buttons vertically */
+    padding: 10px 0;  /* Adjust padding */
+  }
+
+  .bar button {
+    margin: 10px 0;  /* Adjust margin for stacked buttons */
+    width: 90%;  /* Full-width buttons */
+  }
+}
