@@ -8,18 +8,19 @@ const baseUrl = "http://localhost:8800/api";
 
 function Home() {
 
-    const navigate = useNavigate();
-    const { user } = useAuth();
+    const navigate = useNavigate(); // For navigation between pages
+    const { user } = useAuth(); // For fetching user infromation
 
-    const [likeStatus, setLikeStatus] = useState({});
-    const [likesCount, setLikesCount] = useState({});
+    const [likeStatus, setLikeStatus] = useState({}); // For storing liked status of pctures
+    const [likesCount, setLikesCount] = useState({}); // For storing like counts of pictures
     const [comments, setComments] = useState({}); // To store comments for each image
     const [visibleComments, setVisibleComments] = useState({}); // To track if the comment box is visible
-    const [reportText, setReportText] = useState("");
-    const [showReportBox, setShowReportBox] = useState(false);
+    const [reportText, setReportText] = useState(""); // To store reports for each image
+    const [showReportBox, setShowReportBox] = useState(false); // To track if the report box is visible
     const [searchQuery, setSearchQuery] = useState(""); // For search input
     const [images, setImages] = useState([]); // Store search result images
 
+    // Splits the images array into three nearly equal columns
     const splitImagesIntoColumns = (images) => {
         let col1 = [], col2 = [], col3 = [];
         images.forEach((img, idx) => {
@@ -34,10 +35,12 @@ function Home() {
         return { col1, col2, col3 };
     };
 
+    // Update the search input when the search bar changes
     const handleSearchChange = (event) => {
         setSearchQuery(event.target.value); // Update search input
     };
 
+    // Sends the search keywords to the database and return the intended pics then update the image array
     const handleSearch = async () => {
         try {
             if (searchQuery.trim() === "") {
@@ -54,6 +57,7 @@ function Home() {
         }
     };
 
+    // Load the like status of each picture regarding the signed in user
     useEffect(() => {
         const fetchLikes = async () => {
             let status = {};
@@ -67,6 +71,7 @@ function Home() {
         fetchLikes();  // Call the function on mount to load the like status
     }, []);
 
+    // Load the like counts for all pictures
     useEffect(() => {
         const fetchLikesCount = async () => {
             try {
@@ -86,6 +91,7 @@ function Home() {
         fetchLikesCount();
     }, []);
 
+    // fetches the like staus of the selected picture from the database
     const checkIfLiked = async (num) => {
         if (!user) return null; // If no user, return null
 
@@ -98,6 +104,7 @@ function Home() {
         }
     };
 
+    //handles the like button functionallity
     const handleLike = async (num) => {
         if (user) {
             setLikeStatus((prevStatus) => ({
@@ -136,6 +143,7 @@ function Home() {
         }
     };
 
+    // Redirect to registeration or account page
     const handleRedirect = () => {
         if (user) {
             navigate('/account');  // Redirect to the uploads page
@@ -144,11 +152,13 @@ function Home() {
         }
     };
 
+    // Handles the view button
     const handleView = (num) => {
         const imageUrl = `${process.env.PUBLIC_URL}/assets/pic${num}.jpg`; // Assuming the images are in the public folder
         window.open(imageUrl, '_blank');  // Open the image in a new tab
     };
 
+    // Fetch pic comments from the database
     const fetchComments = async (num) => {
         try {
             const response = await axios.get(`${baseUrl}/get-comments/${num}`);
@@ -162,6 +172,7 @@ function Home() {
         }
     };
 
+    // Toggle the visability of the comment box
     const toggleComments = (num) => {
         setVisibleComments((prevVisibility) => ({
             ...prevVisibility,
@@ -173,6 +184,7 @@ function Home() {
         }
     };
 
+    // Upload commet to database and update the comment box
     const handleSubmitComment = async (num, newComment) => {
         try {
             const response = await axios.post(`${baseUrl}/add-comment`, {
@@ -191,6 +203,7 @@ function Home() {
         }
     };
 
+    // Upload reports to database
     const handleReportSubmit = async (pictureNum) => {
         if (reportText.trim() === "") {
             alert("Report cannot be empty!");
