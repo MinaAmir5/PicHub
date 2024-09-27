@@ -153,6 +153,7 @@ function Home() {
     const fetchComments = async (num) => {
         try {
             const response = await axios.get(`${baseUrl}/get-comments/${num}`);
+            alert(response.data.comments);
             const fetchedComments = response.data.comments.split("_");
             setComments((prevComments) => ({
                 ...prevComments,
@@ -302,10 +303,47 @@ function Home() {
                                         <img src={likeStatus[num] ? "/heartFilled.png" : "/heartEmpty.png"}
                                             id="heart_empty" class="shit" alt="Hear Empty" />
                                         <button onClick={() => handleLike(num)} id="num">{likesCount[num] || 0}</button>
-                                        <button id="view">View</button>
-                                        <button id="comment">Comment</button>
-                                        <button id="report">Report</button>
+                                        <button onClick={() => handleView(num)} id="view">View</button>
+                                        <button onClick={() => toggleComments(num)} id="comment">Comment</button>
+                                        <button onClick={() => setShowReportBox(!showReportBox)} id="report">Report</button>
+                                        {showReportBox && (
+                                            <div className="report-box">
+                                                <input
+                                                    type="text"
+                                                    value={reportText}
+                                                    onChange={(e) => setReportText(e.target.value)}
+                                                    onKeyDown={(e) => {
+                                                        if (e.key === "Enter" && e.target.value) {
+                                                            handleReportSubmit(num, e.target.value);
+                                                            e.target.value = "";
+                                                        }
+                                                    }}
+                                                    placeholder="Write your report here..."
+                                                />
+                                            </div>
+                                        )}
                                     </div>
+                                    {visibleComments[num] && (
+                                        <div className="commentSection">
+                                            <div className="commentsBox">
+                                                {comments[num] && comments[num].map((comment, idx) => (
+                                                    <p key={idx}>{comment}</p>
+                                                ))}
+                                            </div>
+                                            <div className="commentInput">
+                                                <input
+                                                    type="text"
+                                                    placeholder="Add a comment..."
+                                                    onKeyDown={(e) => {
+                                                        if (e.key === "Enter" && e.target.value) {
+                                                            handleSubmitComment(num, e.target.value);
+                                                            e.target.value = "";
+                                                        }
+                                                    }}
+                                                />
+                                            </div>
+                                        </div>
+                                    )}
                                 </div>
                             </React.Fragment>
                         ))}
@@ -320,12 +358,50 @@ function Home() {
                                         alt={`pic${num}`}
                                     />
                                     <div class="bar">
-                                        <img src={likeStatus[num] ? "/heartFilled.png" : "/heartEmpty.png"} id="heart_empty" class="shit" alt="Hear Empty" />
+                                        <img src={likeStatus[num] ? "/heartFilled.png" : "/heartEmpty.png"}
+                                            id="heart_empty" class="shit" alt="Hear Empty" />
                                         <button onClick={() => handleLike(num)} id="num">{likesCount[num] || 0}</button>
-                                        <button id="view">View</button>
-                                        <button id="comment">Comment</button>
-                                        <button id="report">Report</button>
+                                        <button onClick={() => handleView(num)} id="view">View</button>
+                                        <button onClick={() => toggleComments(num)} id="comment">Comment</button>
+                                        <button onClick={() => setShowReportBox(!showReportBox)} id="report">Report</button>
+                                        {showReportBox && (
+                                            <div className="report-box">
+                                                <input
+                                                    type="text"
+                                                    value={reportText}
+                                                    onChange={(e) => setReportText(e.target.value)}
+                                                    onKeyDown={(e) => {
+                                                        if (e.key === "Enter" && e.target.value) {
+                                                            handleReportSubmit(num, e.target.value);
+                                                            e.target.value = "";
+                                                        }
+                                                    }}
+                                                    placeholder="Write your report here..."
+                                                />
+                                            </div>
+                                        )}
                                     </div>
+                                    {visibleComments[num] && (
+                                        <div className="commentSection">
+                                            <div className="commentsBox">
+                                                {comments[num] && comments[num].map((comment, idx) => (
+                                                    <p key={idx}>{comment}</p>
+                                                ))}
+                                            </div>
+                                            <div className="commentInput">
+                                                <input
+                                                    type="text"
+                                                    placeholder="Add a comment..."
+                                                    onKeyDown={(e) => {
+                                                        if (e.key === "Enter" && e.target.value) {
+                                                            handleSubmitComment(num, e.target.value);
+                                                            e.target.value = "";
+                                                        }
+                                                    }}
+                                                />
+                                            </div>
+                                        </div>
+                                    )}
                                 </div>
                             </React.Fragment>
                         ))}

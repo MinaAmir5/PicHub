@@ -128,7 +128,7 @@ router.get('/get-comments/:num', async (req, res) => {
     const { num } = req.params;
 
     try {
-        const picture = await Pic.findOne({ number: num });
+        const picture = await Pic.findOne({ num: num });
 
         if (!picture) {
             return res.status(404).json({ message: "Picture not found" });
@@ -146,7 +146,7 @@ router.post('/add-comment', async (req, res) => {
     const { pictureNum, comment } = req.body;
 
     try {
-        const picture = await Pic.findOne({ number: pictureNum });
+        const picture = await Pic.findOne({ num: pictureNum });
 
         if (!picture) {
             return res.status(404).json({ message: "Picture not found" });
@@ -167,7 +167,7 @@ router.post('/add-report', async (req, res) => {
     const { pictureNum, report } = req.body;
 
     try {
-        const picture = await Pic.findOne({ number: pictureNum });
+        const picture = await Pic.findOne({ num: pictureNum });
 
         if (!picture) {
             return res.status(404).json({ message: "Picture not found" });
