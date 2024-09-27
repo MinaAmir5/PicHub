@@ -42,7 +42,7 @@ function Home() {
         try {
             if (searchQuery.trim() === "") {
                 // Load all pictures if the search bar is cleared
-                setImages(_.range(1, 41));  // Assuming there are 40 images, modify this range as needed
+                setImages(_.range(1, 30));  // Assuming there are 40 images, modify this range as needed
             } else {
                 const response = await axios.get(`${baseUrl}/search`, {
                     params: { keyword: searchQuery }, // Send search query to backend
@@ -58,7 +58,7 @@ function Home() {
         const fetchLikes = async () => {
             let status = {};
             // Loop through the images and check if liked
-            for (let i = 1; i <= 41; i++) {  // assuming 41 images
+            for (let i = 1; i <= 30; i++) {  // assuming 41 images
                 const liked = await checkIfLiked(i);
                 status[i] = liked === 1 ? true : false;
             }
@@ -71,7 +71,7 @@ function Home() {
         const fetchLikesCount = async () => {
             try {
                 // Fetch likes count for all pictures (assuming 41 pictures)
-                for (let i = 1; i <= 40; i++) {
+                for (let i = 1; i <= 30; i++) {
                     const response = await axios.get(`${baseUrl}/get-likes/${i}`);
                     setLikesCount((prevCounts) => ({
                         ...prevCounts,
@@ -211,7 +211,7 @@ function Home() {
         }
     };
 
-    const { col1, col2, col3 } = splitImagesIntoColumns(images.length ? images : _.range(1, 41));
+    const { col1, col2, col3 } = splitImagesIntoColumns(images.length ? images : _.range(1, 30));
 
     return (
         <div className="App">
