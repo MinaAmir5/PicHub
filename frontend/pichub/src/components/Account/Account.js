@@ -130,7 +130,6 @@ function Account() {
                     username: user,
                     picNum: num,
                 })
-                alert("after");
                 setLikedPictures((prevLikes) => prevLikes.filter(likedNum => likedNum !== num));
                 setLikesCount((prevCounts) => ({
                     ...prevCounts,

@@ -194,7 +194,6 @@ router.post('/delete-upload', async (req, res) => {
         await user.save();
         res.status(200).send("Upload removed successfully");
     } catch (error) {
-        console.log("shit");
         res.status(500).send("Error deleting upload");
     }
 });

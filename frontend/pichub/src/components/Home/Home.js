@@ -91,7 +91,6 @@ function Home() {
 
         try {
             const response = await axios.get(`${baseUrl}/checkLike/${user}/${num}`);
-            //alert(response.data[0]);
             return response.data;  // Returns 1 if liked, null if not
         } catch (error) {
             console.error("Error checking like:", error);
@@ -153,7 +152,6 @@ function Home() {
     const fetchComments = async (num) => {
         try {
             const response = await axios.get(`${baseUrl}/get-comments/${num}`);
-            alert(response.data.comments);
             const fetchedComments = response.data.comments.split("_");
             setComments((prevComments) => ({
                 ...prevComments,
