@@ -115,6 +115,33 @@ function Account() {
         window.open(imageUrl, '_blank');  // Open the image in a new tab
     };
 
+    const handleDelete = async (num) => {
+        try {
+            if (view === "uploads") {
+                // Delete from uploads
+                await axios.post(`${baseUrl}/delete-upload`, {
+                    username: user,
+                    picNum: num,
+                })
+                setUploads((prevUploads) => prevUploads.filter(uploadNum => uploadNum !== num));
+            } else if (view === "liked") {
+                // Delete from likes
+                await axios.post(`${baseUrl}/delete-like`, {
+                    username: user,
+                    picNum: num,
+                })
+                alert("after");
+                setLikedPictures((prevLikes) => prevLikes.filter(likedNum => likedNum !== num));
+                setLikesCount((prevCounts) => ({
+                    ...prevCounts,
+                    [num]: prevCounts[num] - 1, // Decrement the likes count
+                }));
+            }
+        } catch (error) {
+            console.error("Error deleting picture:", error);
+        }
+    };
+
     return (
         <div className="App">
             <header>
@@ -154,7 +181,7 @@ function Account() {
                                         <button id="num">{likesCount[num] || 0}</button>
                                         <button onClick={() => handleView(num)} id="view">View</button>
                                         <button id="comment">Comment</button>
-                                        <button id="report">Report</button>
+                                        <button id="report" onClick={() => handleDelete(num)}>Delete</button>
                                     </div>
                                 </div>
                             </React.Fragment>
@@ -175,7 +202,7 @@ function Account() {
                                         <button id="num">{likesCount[num] || 0}</button>
                                         <button id="view">View</button>
                                         <button id="comment">Comment</button>
-                                        <button id="report">Report</button>
+                                        <button id="report" onClick={() => handleDelete(num)}>Delete</button>
                                     </div>
                                 </div>
                             </React.Fragment>
@@ -195,7 +222,7 @@ function Account() {
                                         <button id="num">{likesCount[num] || 0}</button>
                                         <button id="view">View</button>
                                         <button id="comment">Comment</button>
-                                        <button id="report">Report</button>
+                                        <button id="report" onClick={() => handleDelete(num)}>Delete</button>
                                     </div>
                                 </div>
                             </React.Fragment>
