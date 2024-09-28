@@ -67,7 +67,7 @@ function Account() {
         const fetchLikes = async () => {
             let status = {};
             // Loop through the images and check if liked
-            for (let i = 1; i <= 41; i++) {  // assuming 41 images
+            for (let i = 1; i <= 30; i++) {  // assuming 41 images
                 const liked = await checkIfLiked(i);
                 status[i] = liked === 1 ? true : false;
             }
