@@ -104,7 +104,3 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-With this README, your project will not only look professional but will also make it easier for developers to understand how to install, use, and contribute to it. You can also include screenshots or a demo gif to showcase the UI.
