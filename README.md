@@ -6,7 +6,7 @@ Here’s a compelling and organized README file for your PicHub project on GitHu
 
 PicHub is an interactive picture-hosting website where users can upload, like, comment, and delete pictures. This web app is built using React.js for the frontend and Node.js for the backend, with a MongoDB database to store users and picture-related data. 
 
-![Logo](path_to_logo_image_if_any)
+![Logo](./frontend/pichub/public/logo.png)
 
 ## Features
 
